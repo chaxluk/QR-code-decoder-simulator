@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/QR_code_conundrum">
+    <file alias="qmldir">C:/Users/Admin/Documents/QT_Creator_Project/QR_code_conundrum/build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/QR_code_conundrum/qmldir</file>
+  </qresource>
+</RCC>
+

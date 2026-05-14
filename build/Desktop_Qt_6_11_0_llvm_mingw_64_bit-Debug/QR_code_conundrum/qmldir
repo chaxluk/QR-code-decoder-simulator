@@ -1,0 +1,5 @@
+module QR_code_conundrum
+typeinfo appQR_code_conundrum.qmltypes
+prefer :/QR_code_conundrum/
+depends QtQuick
+

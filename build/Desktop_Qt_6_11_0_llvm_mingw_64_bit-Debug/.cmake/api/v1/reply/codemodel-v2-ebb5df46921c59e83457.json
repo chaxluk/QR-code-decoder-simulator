@@ -1,0 +1,223 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-3384e4c19b5d4770d70f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "QR_code_conundrum",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "all_aotstats::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_aotstats-Debug-e31d3874fc66c69c619b.json",
+					"name" : "all_aotstats",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint-Debug-9d3cdf0e5c699fcb2c13.json",
+					"name" : "all_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_json-Debug-13dd23fceb14330fabfa.json",
+					"name" : "all_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_module-Debug-157f5161a16fb7fb2d4d.json",
+					"name" : "all_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmltyperegistrations::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmltyperegistrations-Debug-b894f976b0d6c639318e.json",
+					"name" : "all_qmltyperegistrations",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appQR_code_conundrum::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appQR_code_conundrum-Debug-73c533c1996c0e30b545.json",
+					"name" : "appQR_code_conundrum",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appQR_code_conundrum_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appQR_code_conundrum_autogen-Debug-3938eb443467a0ca80c8.json",
+					"name" : "appQR_code_conundrum_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appQR_code_conundrum_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appQR_code_conundrum_autogen_timestamp_deps-Debug-39e26d21c872a53c9448.json",
+					"name" : "appQR_code_conundrum_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appQR_code_conundrum_copy_qml::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appQR_code_conundrum_copy_qml-Debug-34963d6381ef8f6813b3.json",
+					"name" : "appQR_code_conundrum_copy_qml",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appQR_code_conundrum_copy_res::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appQR_code_conundrum_copy_res-Debug-a12022d64df6aff1c286.json",
+					"name" : "appQR_code_conundrum_copy_res",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appQR_code_conundrum_qmlimportscan::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appQR_code_conundrum_qmlimportscan-Debug-9761140eedfdc4b5ffc7.json",
+					"name" : "appQR_code_conundrum_qmlimportscan",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appQR_code_conundrum_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appQR_code_conundrum_qmllint-Debug-79466822dbf36cd8335b.json",
+					"name" : "appQR_code_conundrum_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appQR_code_conundrum_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appQR_code_conundrum_qmllint_json-Debug-8c46b4fca723eeac7c5f.json",
+					"name" : "appQR_code_conundrum_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appQR_code_conundrum_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appQR_code_conundrum_qmllint_module-Debug-afee9e36144cfab37ce5.json",
+					"name" : "appQR_code_conundrum_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appQR_code_conundrum_qmltyperegistration::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appQR_code_conundrum_qmltyperegistration-Debug-9ab581afe614d41f3f8d.json",
+					"name" : "appQR_code_conundrum_qmltyperegistration",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "clean_qml_context_properties::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-clean_qml_context_properties-Debug-25ec7588a45053504f9d.json",
+					"name" : "clean_qml_context_properties",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dump_qml_context_properties::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dump_qml_context_properties-Debug-37520f6840fcf8c7e59e.json",
+					"name" : "dump_qml_context_properties",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "generate_qmlls_build_ini_file::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-generate_qmlls_build_ini_file-Debug-798191494d8fa1e43eeb.json",
+					"name" : "generate_qmlls_build_ini_file",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "module_appQR_code_conundrum_aotstats_target::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-module_appQR_code_conundrum_aotstats_target-Debug-8b7baa61857403ed119b.json",
+					"name" : "module_appQR_code_conundrum_aotstats_target",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/Admin/Documents/QT_Creator_Project/QR_code_conundrum/build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug",
+		"source" : "C:/Users/Admin/Documents/QT_Creator_Project/QR_code_conundrum"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
