@@ -1,27 +1,48 @@
 #include "gamecontroller.h"
 #include <QDebug>
 #include <QRandomGenerator>
+#include <QFile>
+#include <QTextStream>
+#include <QRegularExpression>
 
 GameController::GameController(QObject *parent) : QObject(parent) {}
 
-void GameController::generateChallenge() {
-    // 1. Розширимо список слів, щоб було цікавіше
-    QStringList words = {
-        "cat", "dog", "sun", "code", "ball", "tree", "fish", "star", "halo", "fire",
-        "moon", "book", "wind", "data", "byte", "king", "blue", "leaf", "cool", "idea"
-    };
+QString GameController::loadRandomWord(int difficulty) {
+    QString fileName;
+    QString prefix = ":/QR_code_conundrum/";
+    if (difficulty == 0) fileName = prefix + "words_easy.txt";
+    else if (difficulty == 1) fileName = prefix + "words_normal.txt";
+    else fileName = prefix + "words_hard.txt";
 
-    // 2. Використовуємо глобальний генератор Qt
-    // bounded(n) повертає число від 0 до n-1
-    int wordIndex = QRandomGenerator::global()->bounded(words.size());
-    m_secretWord = words[wordIndex];
+    QFile file(fileName);
+    if (!file.open(QIODevice::ReadOnly | QIODevice::Text)) {
+        qDebug() << "Помилка: не вдалося відкрити файл" << fileName;
+        return "error";
+    }
 
-    // 3. Випадкова маска для шифрування (0-7)
+    QTextStream in(&file);
+    QString content = in.readAll();
+    file.close();
+
+    // Розбиваємо текст на слова (будь-які пробіли, таби або переноси рядків)
+    QStringList words = content.split(QRegularExpression("\\s+"), Qt::SkipEmptyParts);
+
+    if (words.isEmpty()) return "empty";
+
+    int index = QRandomGenerator::global()->bounded(words.size());
+    return words[index].toLower().trimmed();
+}
+
+void GameController::generateChallenge(int difficulty) {
+    // Завантаження з файлу
+    m_secretWord = loadRandomWord(difficulty);
+
+    // Випадкова маска
     m_challengeMask = QRandomGenerator::global()->bounded(8);
 
-    // Лог у консоль для розробника (щоб ти знав, що розгадувати)
-    qDebug() << "Загадано слово:" << m_secretWord << "Маска:" << m_challengeMask;
+    qDebug() << "Загадано слово з файлу:" << m_secretWord << "Маска:" << m_challengeMask;
 
+    // Початковий стан
     processWord(m_secretWord, -1);
 }
 
@@ -38,13 +59,64 @@ void GameController::processWord(const QString &word, int playerMaskId) {
     binaryResult += "0000";
     int dataLength = binaryResult.length();
 
-    // 4. Генерація рандомного шуму через QRandomGenerator
+    // Генерація рандомного шуму
     while (binaryResult.length() < 208) {
-        // Додаємо випадково "0" або "1"
         binaryResult += QString::number(QRandomGenerator::global()->bounded(2));
     }
 
     m_gridModel.populateDate(binaryResult, m_challengeMask, playerMaskId, dataLength);
+}
+
+void GameController::saveWin(int difficulty, int score, int time) {
+    QSettings settings("MyCoursework", "QRGame");
+    QString prefix = (difficulty == 0) ? "easy_" : (difficulty == 1) ? "normal_" : "hard_";
+
+    // 1. Кількість ігор
+    int games = settings.value(prefix + "games", 0).toInt();
+    settings.setValue(prefix + "games", games + 1);
+
+    // 2. Загальний рахунок на цій складності
+    int total = settings.value(prefix + "totalScore", 0).toInt();
+    settings.setValue(prefix + "totalScore", total + score);
+
+    // 3. Рекорд по очках
+    int bestS = settings.value(prefix + "bestScore", 0).toInt();
+    if (score > bestS) settings.setValue(prefix + "bestScore", score);
+
+    // 4. Рекорд по часу - тут чим менше, тим краще
+    int bestT = settings.value(prefix + "bestTime", 0).toInt();
+    if (bestT == 0 || time < bestT) settings.setValue(prefix + "bestTime", time);
+
+    settings.sync();
+}
+
+int GameController::getGamesWon(int difficulty) {
+    QSettings settings("MyCoursework", "QRGame");
+    QString prefix = (difficulty == 0) ? "easy_" : (difficulty == 1) ? "normal_" : "hard_";
+    return settings.value(prefix + "games", 0).toInt();
+}
+
+int GameController::getTotalScore(int difficulty) {
+    QSettings settings("MyCoursework", "QRGame");
+    QString prefix = (difficulty == 0) ? "easy_" : (difficulty == 1) ? "normal_" : "hard_";
+    return settings.value(prefix + "totalScore", 0).toInt();
+}
+
+int GameController::getBestScore(int difficulty) {
+    QSettings settings("MyCoursework", "QRGame");
+    QString prefix = (difficulty == 0) ? "easy_" : (difficulty == 1) ? "normal_" : "hard_";
+    return settings.value(prefix + "bestScore", 0).toInt();
+}
+
+int GameController::getBestTime(int difficulty) {
+    QSettings settings("MyCoursework", "QRGame");
+    QString prefix = (difficulty == 0) ? "easy_" : (difficulty == 1) ? "normal_" : "hard_";
+    return settings.value(prefix + "bestTime", 0).toInt();
+}
+
+void GameController::resetStats() {
+    QSettings settings("MyCoursework", "QRGame");
+    settings.clear(); // Видаляє всі збережені дані
 }
 
 bool GameController::checkAnswer(const QString &playerAnswer) {

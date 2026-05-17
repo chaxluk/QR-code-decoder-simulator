@@ -6,6 +6,7 @@ set(CMAKE_AUTOMOC ON)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 find_package(Qt6 6.2 COMPONENTS Quick REQUIRED)
+qt_policy(SET QTP0001 OLD)
 
 qt_add_executable(appQR_code_conundrum
     main.cpp
@@ -14,11 +15,26 @@ qt_add_executable(appQR_code_conundrum
 qt_add_qml_module(appQR_code_conundrum
     URI QR_code_conundrum
     VERSION 1.0
-    QML_FILES main.qml
-    SOURCES gamecontroller.h gamecontroller.cpp
-    SOURCES gridmodel.h gridmodel.cpp
+    QML_FILES
+        main.qml
+        MainMenu.qml
+        GameScreen.qml
+        StatsScreen.qml
+        TutorialScreen.qml
     SOURCES
-    RESOURCES draft
+        gamecontroller.h
+        gamecontroller.cpp
+        gridmodel.h
+        gridmodel.cpp
+    RESOURCES
+        tuto_1_anatomy.png
+        tuto_2_masks.png
+        tuto_3_header.png
+        tuto_4_snake.png
+        tuto_5_chars.png
+        words_easy.txt
+        words_normal.txt
+        words_hard.txt
 )
 
 # Qt for iOS sets MACOSX_BUNDLE_GUI_IDENTIFIER automatically since Qt 6.1.
