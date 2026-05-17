@@ -1,0 +1,10 @@
+build/
+Debug/
+Release/
+*.o
+*.exe
+*.dll
+*.user
+.qtc*
+CMakeLists.txt.user
+*.json
