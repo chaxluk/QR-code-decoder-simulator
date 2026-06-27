@@ -1,2 +1,0 @@
-C:/Users/Admin/Documents/QT_Creator_Project/QR_code_conundrum/build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/appQR_code_conundrum_autogen/include/../EWIEGA46WW/moc_gamecontroller.cpp.json
-C:/Users/Admin/Documents/QT_Creator_Project/QR_code_conundrum/build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/appQR_code_conundrum_autogen/include/../EWIEGA46WW/moc_gridmodel.cpp.json

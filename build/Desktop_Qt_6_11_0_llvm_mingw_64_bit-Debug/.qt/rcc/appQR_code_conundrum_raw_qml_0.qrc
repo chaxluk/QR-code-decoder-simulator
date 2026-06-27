@@ -1,6 +1,10 @@
 <RCC>
   <qresource prefix="/QR_code_conundrum/">
     <file alias="main.qml">C:/Users/Admin/Documents/QT_Creator_Project/QR_code_conundrum/main.qml</file>
+    <file alias="MainMenu.qml">C:/Users/Admin/Documents/QT_Creator_Project/QR_code_conundrum/MainMenu.qml</file>
+    <file alias="GameScreen.qml">C:/Users/Admin/Documents/QT_Creator_Project/QR_code_conundrum/GameScreen.qml</file>
+    <file alias="StatsScreen.qml">C:/Users/Admin/Documents/QT_Creator_Project/QR_code_conundrum/StatsScreen.qml</file>
+    <file alias="TutorialScreen.qml">C:/Users/Admin/Documents/QT_Creator_Project/QR_code_conundrum/TutorialScreen.qml</file>
   </qresource>
 </RCC>
 

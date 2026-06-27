@@ -5,3 +5,7 @@ C:/Users/Admin/Documents/QT_Creator_Project/QR_code_conundrum/build/Desktop_Qt_6
 --resource
 C:/Users/Admin/Documents/QT_Creator_Project/QR_code_conundrum/build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/.qt/rcc/appQR_code_conundrum_raw_res_0.qrc
 /QR_code_conundrum/main.qml
+/QR_code_conundrum/MainMenu.qml
+/QR_code_conundrum/GameScreen.qml
+/QR_code_conundrum/StatsScreen.qml
+/QR_code_conundrum/TutorialScreen.qml

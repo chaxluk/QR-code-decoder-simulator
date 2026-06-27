@@ -68,7 +68,11 @@ include CMakeFiles/appQR_code_conundrum_copy_res.dir/progress.make
 CMakeFiles/appQR_code_conundrum_copy_res: .qt/appQR_code_conundrum_res.txt
 
 .qt/appQR_code_conundrum_res.txt: C:/Qt/6.11.0/llvm-mingw_64/lib/cmake/Qt6Qml/Qt6QmlCopyFiles.cmake
-.qt/appQR_code_conundrum_res.txt: C:/Users/Admin/Documents/QT_Creator_Project/QR_code_conundrum/draft
+.qt/appQR_code_conundrum_res.txt: C:/Users/Admin/Documents/QT_Creator_Project/QR_code_conundrum/tuto_1_anatomy.png
+.qt/appQR_code_conundrum_res.txt: C:/Users/Admin/Documents/QT_Creator_Project/QR_code_conundrum/tuto_2_masks.png
+.qt/appQR_code_conundrum_res.txt: C:/Users/Admin/Documents/QT_Creator_Project/QR_code_conundrum/tuto_3_header.png
+.qt/appQR_code_conundrum_res.txt: C:/Users/Admin/Documents/QT_Creator_Project/QR_code_conundrum/tuto_4_snake.png
+.qt/appQR_code_conundrum_res.txt: C:/Users/Admin/Documents/QT_Creator_Project/QR_code_conundrum/tuto_5_chars.png
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\Admin\Documents\QT_Creator_Project\QR_code_conundrum\build\Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Copying appQR_code_conundrum qml resources into build dir"
 	C:\Qt\Tools\CMake_64\bin\cmake.exe -DFILES_INFO_PATH=C:/Users/Admin/Documents/QT_Creator_Project/QR_code_conundrum/build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/.qt/appQR_code_conundrum_res.cmake -P C:/Qt/6.11.0/llvm-mingw_64/lib/cmake/Qt6Qml/Qt6QmlCopyFiles.cmake
 

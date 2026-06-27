@@ -3,94 +3,48 @@ import GameLogic 1.0
 import QtQuick.Controls
 
 Window {
-    width: 640; height: 700; visible: true; visibility: Window.Maximized
-    title: qsTr("QR Decoder Training")
+    id: root
+    visible: true
+    visibility: Window.Maximized
+    title: "QR Decoder"
 
-    GameController { id: gameLogic }
+    minimumWidth: 1280
+    minimumHeight: 720
 
-    Rectangle {
-        width: 420; height: 420; anchors.centerIn: parent; color: "transparent"
-        Grid {
-            rows: 21; columns: 21
-            Repeater {
-                model: gameLogic.gridModel
-                Rectangle {
-                    width: 20; height: 20; border.color: "lightgrey"
-                    color: {
-                        if (model.cellColor === 1) return "black";       // Дані
-                        if (model.cellColor === 2) return "green";       // Біт маски 1
-                        if (model.cellColor === 3) return "#b7d9b1";     // Біт маски 0
-                        if (model.cellColor === 4) return "blue";        // Каркас/Шум
-                        return "white";                                  // Фон
-                    }
-                }
-            }
-        }
+    GameController {
+        id:gameLogic
     }
 
-    Column {
-        anchors.bottom: parent.bottom; anchors.bottomMargin: 30
-        anchors.horizontalCenter: parent.horizontalCenter; spacing: 10
-
-        Button {
-            text: "ЗАГАДАТИ НОВИЙ QR-КОД"; width: 350
-            onClicked: { gameLogic.generateChallenge(); answerInput.text = ""; title = "Розгадай код!" }
-        }
-
-        ComboBox {
-            id: maskSelector; width: 350
-            model: [
-                "Без маски", "Квіткові шпалери", "Клітинчастий прапор",
-                "Ящірки М.С. Ешера", "Шлях сокирою", "Тюремний одяг", "Партії в шахи", "Веселка", "За ґратами"
-            ]
-            onActivated: gameLogic.processWord("", currentIndex - 1)
-        }
-
-        TextField { id: answerInput; placeholderText: "Твоя відповідь..."; width: 350; enabled: true }
-
-        Button {
-            text: "ПЕРЕВІРИТИ ВІДПОВІДЬ"; width: 350
-            // Кнопка активна тільки якщо щось введено
-            enabled: answerInput.text.length > 0
-
-            onClicked: {
-                if (gameLogic.checkAnswer(answerInput.text)) {
-                    dialogMainText.text = "✅ ПРАВИЛЬНО!"
-                    dialogMainText.color = "green"
-                    dialogSubText.text = "Це було слово: " + answerInput.text.toUpperCase()
-                } else {
-                    dialogMainText.text = "❌ НЕВІРНО"
-                    dialogMainText.color = "red"
-                    dialogSubText.text = "Спробуй ще раз розгадати біти!"
-                }
-                resultDialog.open() // Виклик вікна
-            }
+    //Перемикання сторінок
+    StackView {
+        id: stack
+        anchors.fill: parent
+        initialItem: mainMenuComponent //Головне меню
+    }
+    Component {
+        id: mainMenuComponent
+        MainMenu {
+            onStartGame: stack.push(gameScreenComponent)
+            onOpenStats: stack.push(statsScreenComponent)
+            onOpenTutorial: stack.push(tutorialScreenComponent)
         }
     }
-
-    Dialog {
-            id: resultDialog; anchors.centerIn: parent; width: 300;title: "Результат"
-            modal: true; // Блокує основне вікно, поки діалог відкритий
-
-            // Кнопка закриття
-            standardButtons: Dialog.Ok
-
-            Column {
-                width: parent.width; spacing: 10
-                Text {
-                    id: dialogMainText
-                    text: ""
-                    font.bold: true
-                    font.pointSize: 14
-                    horizontalAlignment: Text.AlignHCenter
-                    width: parent.width
-                }
-                Text {
-                    id: dialogSubText
-                    text: ""
-                    horizontalAlignment: Text.AlignHCenter
-                    width: parent.width
-                }
-            }
+    Component {
+        id: gameScreenComponent
+        GameScreen  {
+            onBackToMenu: stack.pop()
         }
+    }
+    Component {
+        id: statsScreenComponent
+        StatsScreen {
+            onBackToMenu: stack.pop()
+        }
+    }
+    Component {
+        id: tutorialScreenComponent
+        TutorialScreen {
+            onBackToMenu: stack.pop()
+        }
+    }
 }

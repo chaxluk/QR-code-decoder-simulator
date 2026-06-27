@@ -1,5 +1,9 @@
 module QR_code_conundrum
 typeinfo appQR_code_conundrum.qmltypes
 prefer :/QR_code_conundrum/
+MainMenu 1.0 MainMenu.qml
+GameScreen 1.0 GameScreen.qml
+StatsScreen 1.0 StatsScreen.qml
+TutorialScreen 1.0 TutorialScreen.qml
 depends QtQuick
 

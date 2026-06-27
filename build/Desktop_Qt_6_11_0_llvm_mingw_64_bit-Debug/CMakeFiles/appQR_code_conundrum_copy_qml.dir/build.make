@@ -69,6 +69,10 @@ CMakeFiles/appQR_code_conundrum_copy_qml: .qt/appQR_code_conundrum_qml.txt
 
 .qt/appQR_code_conundrum_qml.txt: C:/Qt/6.11.0/llvm-mingw_64/lib/cmake/Qt6Qml/Qt6QmlCopyFiles.cmake
 .qt/appQR_code_conundrum_qml.txt: C:/Users/Admin/Documents/QT_Creator_Project/QR_code_conundrum/main.qml
+.qt/appQR_code_conundrum_qml.txt: C:/Users/Admin/Documents/QT_Creator_Project/QR_code_conundrum/MainMenu.qml
+.qt/appQR_code_conundrum_qml.txt: C:/Users/Admin/Documents/QT_Creator_Project/QR_code_conundrum/GameScreen.qml
+.qt/appQR_code_conundrum_qml.txt: C:/Users/Admin/Documents/QT_Creator_Project/QR_code_conundrum/StatsScreen.qml
+.qt/appQR_code_conundrum_qml.txt: C:/Users/Admin/Documents/QT_Creator_Project/QR_code_conundrum/TutorialScreen.qml
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\Admin\Documents\QT_Creator_Project\QR_code_conundrum\build\Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Copying appQR_code_conundrum qml sources into build dir"
 	C:\Qt\Tools\CMake_64\bin\cmake.exe -DFILES_INFO_PATH=C:/Users/Admin/Documents/QT_Creator_Project/QR_code_conundrum/build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/.qt/appQR_code_conundrum_qml.cmake -P C:/Qt/6.11.0/llvm-mingw_64/lib/cmake/Qt6Qml/Qt6QmlCopyFiles.cmake
 

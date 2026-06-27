@@ -85,7 +85,7 @@ Item {
 
         width: 650; height: 140; radius: 12
         color: "#ffffff"; border.color: borderColor; border.width: 2
-
+        //Назва рівня
         Text {
             text: title; font.bold: true; font.pointSize: 14; color: borderColor
             anchors.top: parent.top; anchors.left: parent.left; anchors.margins: 12
@@ -96,7 +96,7 @@ Item {
             anchors.verticalCenterOffset: 10
             spacing: 50
 
-            // Перша пара колонок
+            // Кількість ігор та рекорд очок
             Row {
                 spacing: 10
                 Column { spacing: 8; Text { text: "Ігор:" } Text { text: "Рекорд (очки):" } }
@@ -106,7 +106,7 @@ Item {
                 }
             }
 
-            // Друга пара колонок
+            // Рекорд часу та загальний рахунок
             Row {
                 spacing: 10
                 Column { spacing: 8; Text { text: "Рекорд (час):" } Text { text: "Загальний рахунок:" } }

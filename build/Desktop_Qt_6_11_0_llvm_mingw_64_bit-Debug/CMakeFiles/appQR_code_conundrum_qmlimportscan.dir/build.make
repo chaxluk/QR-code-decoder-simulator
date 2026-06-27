@@ -72,6 +72,10 @@ CMakeFiles/appQR_code_conundrum_qmlimportscan: .qt/qml_imports/appQR_code_conund
 .qt/qml_imports/appQR_code_conundrum_build.cmake: .qt/rcc/appQR_code_conundrum_raw_qml_0.qrc
 .qt/qml_imports/appQR_code_conundrum_build.cmake: .qt/rcc/appQR_code_conundrum_raw_res_0.qrc
 .qt/qml_imports/appQR_code_conundrum_build.cmake: C:/Users/Admin/Documents/QT_Creator_Project/QR_code_conundrum/main.qml
+.qt/qml_imports/appQR_code_conundrum_build.cmake: C:/Users/Admin/Documents/QT_Creator_Project/QR_code_conundrum/MainMenu.qml
+.qt/qml_imports/appQR_code_conundrum_build.cmake: C:/Users/Admin/Documents/QT_Creator_Project/QR_code_conundrum/GameScreen.qml
+.qt/qml_imports/appQR_code_conundrum_build.cmake: C:/Users/Admin/Documents/QT_Creator_Project/QR_code_conundrum/StatsScreen.qml
+.qt/qml_imports/appQR_code_conundrum_build.cmake: C:/Users/Admin/Documents/QT_Creator_Project/QR_code_conundrum/TutorialScreen.qml
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\Admin\Documents\QT_Creator_Project\QR_code_conundrum\build\Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Running qmlimportscanner for appQR_code_conundrum"
 	cd /d C:\Users\Admin\Documents\QT_Creator_Project\QR_code_conundrum && call C:\Users\Admin\Documents\QT_Creator_Project\QR_code_conundrum\build\Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug\.qt\bin\qt_setup_tool_path.bat C:/Qt/6.11.0/llvm-mingw_64/bin/qmlimportscanner.exe @C:/Users/Admin/Documents/QT_Creator_Project/QR_code_conundrum/build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/.qt/qml_imports/appQR_code_conundrum_build.rsp
 

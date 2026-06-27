@@ -407,6 +407,78 @@ appQR_code_conundrum_autogen/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\appQR_code_conundrum_autogen.dir\build.make CMakeFiles/appQR_code_conundrum_autogen.dir/build
 .PHONY : appQR_code_conundrum_autogen/fast
 
+583b26bd65784e365b6a17ad37ef9841/.rcc/qmlcache/appQR_code_conundrum_GameScreen_qml.obj: 583b26bd65784e365b6a17ad37ef9841/.rcc/qmlcache/appQR_code_conundrum_GameScreen_qml.cpp.obj
+.PHONY : 583b26bd65784e365b6a17ad37ef9841/.rcc/qmlcache/appQR_code_conundrum_GameScreen_qml.obj
+
+# target to build an object file
+583b26bd65784e365b6a17ad37ef9841/.rcc/qmlcache/appQR_code_conundrum_GameScreen_qml.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\appQR_code_conundrum.dir\build.make CMakeFiles/appQR_code_conundrum.dir/583b26bd65784e365b6a17ad37ef9841/.rcc/qmlcache/appQR_code_conundrum_GameScreen_qml.cpp.obj
+.PHONY : 583b26bd65784e365b6a17ad37ef9841/.rcc/qmlcache/appQR_code_conundrum_GameScreen_qml.cpp.obj
+
+583b26bd65784e365b6a17ad37ef9841/.rcc/qmlcache/appQR_code_conundrum_GameScreen_qml.i: 583b26bd65784e365b6a17ad37ef9841/.rcc/qmlcache/appQR_code_conundrum_GameScreen_qml.cpp.i
+.PHONY : 583b26bd65784e365b6a17ad37ef9841/.rcc/qmlcache/appQR_code_conundrum_GameScreen_qml.i
+
+# target to preprocess a source file
+583b26bd65784e365b6a17ad37ef9841/.rcc/qmlcache/appQR_code_conundrum_GameScreen_qml.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\appQR_code_conundrum.dir\build.make CMakeFiles/appQR_code_conundrum.dir/583b26bd65784e365b6a17ad37ef9841/.rcc/qmlcache/appQR_code_conundrum_GameScreen_qml.cpp.i
+.PHONY : 583b26bd65784e365b6a17ad37ef9841/.rcc/qmlcache/appQR_code_conundrum_GameScreen_qml.cpp.i
+
+583b26bd65784e365b6a17ad37ef9841/.rcc/qmlcache/appQR_code_conundrum_GameScreen_qml.s: 583b26bd65784e365b6a17ad37ef9841/.rcc/qmlcache/appQR_code_conundrum_GameScreen_qml.cpp.s
+.PHONY : 583b26bd65784e365b6a17ad37ef9841/.rcc/qmlcache/appQR_code_conundrum_GameScreen_qml.s
+
+# target to generate assembly for a file
+583b26bd65784e365b6a17ad37ef9841/.rcc/qmlcache/appQR_code_conundrum_GameScreen_qml.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\appQR_code_conundrum.dir\build.make CMakeFiles/appQR_code_conundrum.dir/583b26bd65784e365b6a17ad37ef9841/.rcc/qmlcache/appQR_code_conundrum_GameScreen_qml.cpp.s
+.PHONY : 583b26bd65784e365b6a17ad37ef9841/.rcc/qmlcache/appQR_code_conundrum_GameScreen_qml.cpp.s
+
+583b26bd65784e365b6a17ad37ef9841/.rcc/qmlcache/appQR_code_conundrum_StatsScreen_qml.obj: 583b26bd65784e365b6a17ad37ef9841/.rcc/qmlcache/appQR_code_conundrum_StatsScreen_qml.cpp.obj
+.PHONY : 583b26bd65784e365b6a17ad37ef9841/.rcc/qmlcache/appQR_code_conundrum_StatsScreen_qml.obj
+
+# target to build an object file
+583b26bd65784e365b6a17ad37ef9841/.rcc/qmlcache/appQR_code_conundrum_StatsScreen_qml.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\appQR_code_conundrum.dir\build.make CMakeFiles/appQR_code_conundrum.dir/583b26bd65784e365b6a17ad37ef9841/.rcc/qmlcache/appQR_code_conundrum_StatsScreen_qml.cpp.obj
+.PHONY : 583b26bd65784e365b6a17ad37ef9841/.rcc/qmlcache/appQR_code_conundrum_StatsScreen_qml.cpp.obj
+
+583b26bd65784e365b6a17ad37ef9841/.rcc/qmlcache/appQR_code_conundrum_StatsScreen_qml.i: 583b26bd65784e365b6a17ad37ef9841/.rcc/qmlcache/appQR_code_conundrum_StatsScreen_qml.cpp.i
+.PHONY : 583b26bd65784e365b6a17ad37ef9841/.rcc/qmlcache/appQR_code_conundrum_StatsScreen_qml.i
+
+# target to preprocess a source file
+583b26bd65784e365b6a17ad37ef9841/.rcc/qmlcache/appQR_code_conundrum_StatsScreen_qml.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\appQR_code_conundrum.dir\build.make CMakeFiles/appQR_code_conundrum.dir/583b26bd65784e365b6a17ad37ef9841/.rcc/qmlcache/appQR_code_conundrum_StatsScreen_qml.cpp.i
+.PHONY : 583b26bd65784e365b6a17ad37ef9841/.rcc/qmlcache/appQR_code_conundrum_StatsScreen_qml.cpp.i
+
+583b26bd65784e365b6a17ad37ef9841/.rcc/qmlcache/appQR_code_conundrum_StatsScreen_qml.s: 583b26bd65784e365b6a17ad37ef9841/.rcc/qmlcache/appQR_code_conundrum_StatsScreen_qml.cpp.s
+.PHONY : 583b26bd65784e365b6a17ad37ef9841/.rcc/qmlcache/appQR_code_conundrum_StatsScreen_qml.s
+
+# target to generate assembly for a file
+583b26bd65784e365b6a17ad37ef9841/.rcc/qmlcache/appQR_code_conundrum_StatsScreen_qml.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\appQR_code_conundrum.dir\build.make CMakeFiles/appQR_code_conundrum.dir/583b26bd65784e365b6a17ad37ef9841/.rcc/qmlcache/appQR_code_conundrum_StatsScreen_qml.cpp.s
+.PHONY : 583b26bd65784e365b6a17ad37ef9841/.rcc/qmlcache/appQR_code_conundrum_StatsScreen_qml.cpp.s
+
+583b26bd65784e365b6a17ad37ef9841/.rcc/qmlcache/appQR_code_conundrum_TutorialScreen_qml.obj: 583b26bd65784e365b6a17ad37ef9841/.rcc/qmlcache/appQR_code_conundrum_TutorialScreen_qml.cpp.obj
+.PHONY : 583b26bd65784e365b6a17ad37ef9841/.rcc/qmlcache/appQR_code_conundrum_TutorialScreen_qml.obj
+
+# target to build an object file
+583b26bd65784e365b6a17ad37ef9841/.rcc/qmlcache/appQR_code_conundrum_TutorialScreen_qml.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\appQR_code_conundrum.dir\build.make CMakeFiles/appQR_code_conundrum.dir/583b26bd65784e365b6a17ad37ef9841/.rcc/qmlcache/appQR_code_conundrum_TutorialScreen_qml.cpp.obj
+.PHONY : 583b26bd65784e365b6a17ad37ef9841/.rcc/qmlcache/appQR_code_conundrum_TutorialScreen_qml.cpp.obj
+
+583b26bd65784e365b6a17ad37ef9841/.rcc/qmlcache/appQR_code_conundrum_TutorialScreen_qml.i: 583b26bd65784e365b6a17ad37ef9841/.rcc/qmlcache/appQR_code_conundrum_TutorialScreen_qml.cpp.i
+.PHONY : 583b26bd65784e365b6a17ad37ef9841/.rcc/qmlcache/appQR_code_conundrum_TutorialScreen_qml.i
+
+# target to preprocess a source file
+583b26bd65784e365b6a17ad37ef9841/.rcc/qmlcache/appQR_code_conundrum_TutorialScreen_qml.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\appQR_code_conundrum.dir\build.make CMakeFiles/appQR_code_conundrum.dir/583b26bd65784e365b6a17ad37ef9841/.rcc/qmlcache/appQR_code_conundrum_TutorialScreen_qml.cpp.i
+.PHONY : 583b26bd65784e365b6a17ad37ef9841/.rcc/qmlcache/appQR_code_conundrum_TutorialScreen_qml.cpp.i
+
+583b26bd65784e365b6a17ad37ef9841/.rcc/qmlcache/appQR_code_conundrum_TutorialScreen_qml.s: 583b26bd65784e365b6a17ad37ef9841/.rcc/qmlcache/appQR_code_conundrum_TutorialScreen_qml.cpp.s
+.PHONY : 583b26bd65784e365b6a17ad37ef9841/.rcc/qmlcache/appQR_code_conundrum_TutorialScreen_qml.s
+
+# target to generate assembly for a file
+583b26bd65784e365b6a17ad37ef9841/.rcc/qmlcache/appQR_code_conundrum_TutorialScreen_qml.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\appQR_code_conundrum.dir\build.make CMakeFiles/appQR_code_conundrum.dir/583b26bd65784e365b6a17ad37ef9841/.rcc/qmlcache/appQR_code_conundrum_TutorialScreen_qml.cpp.s
+.PHONY : 583b26bd65784e365b6a17ad37ef9841/.rcc/qmlcache/appQR_code_conundrum_TutorialScreen_qml.cpp.s
+
 583b26bd65784e365b6a17ad37ef9841/.rcc/qmlcache/appQR_code_conundrum_qmlcache_loader.obj: 583b26bd65784e365b6a17ad37ef9841/.rcc/qmlcache/appQR_code_conundrum_qmlcache_loader.cpp.obj
 .PHONY : 583b26bd65784e365b6a17ad37ef9841/.rcc/qmlcache/appQR_code_conundrum_qmlcache_loader.obj
 
@@ -551,6 +623,30 @@ build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/.qt/rcc/qrc_qmake_QR_code_conund
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\appQR_code_conundrum.dir\build.make CMakeFiles/appQR_code_conundrum.dir/build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/.qt/rcc/qrc_qmake_QR_code_conundrum.cpp.s
 .PHONY : build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/.qt/rcc/qrc_qmake_QR_code_conundrum.cpp.s
 
+build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/.rcc/qmlcache/appQR_code_conundrum_MainMenu_qml.obj: build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/.rcc/qmlcache/appQR_code_conundrum_MainMenu_qml.cpp.obj
+.PHONY : build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/.rcc/qmlcache/appQR_code_conundrum_MainMenu_qml.obj
+
+# target to build an object file
+build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/.rcc/qmlcache/appQR_code_conundrum_MainMenu_qml.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\appQR_code_conundrum.dir\build.make CMakeFiles/appQR_code_conundrum.dir/build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/.rcc/qmlcache/appQR_code_conundrum_MainMenu_qml.cpp.obj
+.PHONY : build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/.rcc/qmlcache/appQR_code_conundrum_MainMenu_qml.cpp.obj
+
+build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/.rcc/qmlcache/appQR_code_conundrum_MainMenu_qml.i: build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/.rcc/qmlcache/appQR_code_conundrum_MainMenu_qml.cpp.i
+.PHONY : build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/.rcc/qmlcache/appQR_code_conundrum_MainMenu_qml.i
+
+# target to preprocess a source file
+build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/.rcc/qmlcache/appQR_code_conundrum_MainMenu_qml.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\appQR_code_conundrum.dir\build.make CMakeFiles/appQR_code_conundrum.dir/build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/.rcc/qmlcache/appQR_code_conundrum_MainMenu_qml.cpp.i
+.PHONY : build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/.rcc/qmlcache/appQR_code_conundrum_MainMenu_qml.cpp.i
+
+build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/.rcc/qmlcache/appQR_code_conundrum_MainMenu_qml.s: build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/.rcc/qmlcache/appQR_code_conundrum_MainMenu_qml.cpp.s
+.PHONY : build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/.rcc/qmlcache/appQR_code_conundrum_MainMenu_qml.s
+
+# target to generate assembly for a file
+build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/.rcc/qmlcache/appQR_code_conundrum_MainMenu_qml.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\appQR_code_conundrum.dir\build.make CMakeFiles/appQR_code_conundrum.dir/build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/.rcc/qmlcache/appQR_code_conundrum_MainMenu_qml.cpp.s
+.PHONY : build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/.rcc/qmlcache/appQR_code_conundrum_MainMenu_qml.cpp.s
+
 build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/.rcc/qmlcache/appQR_code_conundrum_main_qml.obj: build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/.rcc/qmlcache/appQR_code_conundrum_main_qml.cpp.obj
 .PHONY : build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/.rcc/qmlcache/appQR_code_conundrum_main_qml.obj
 
@@ -678,6 +774,15 @@ help:
 	@echo ... generate_qmlls_build_ini_file
 	@echo ... module_appQR_code_conundrum_aotstats_target
 	@echo ... appQR_code_conundrum
+	@echo ... 583b26bd65784e365b6a17ad37ef9841/.rcc/qmlcache/appQR_code_conundrum_GameScreen_qml.obj
+	@echo ... 583b26bd65784e365b6a17ad37ef9841/.rcc/qmlcache/appQR_code_conundrum_GameScreen_qml.i
+	@echo ... 583b26bd65784e365b6a17ad37ef9841/.rcc/qmlcache/appQR_code_conundrum_GameScreen_qml.s
+	@echo ... 583b26bd65784e365b6a17ad37ef9841/.rcc/qmlcache/appQR_code_conundrum_StatsScreen_qml.obj
+	@echo ... 583b26bd65784e365b6a17ad37ef9841/.rcc/qmlcache/appQR_code_conundrum_StatsScreen_qml.i
+	@echo ... 583b26bd65784e365b6a17ad37ef9841/.rcc/qmlcache/appQR_code_conundrum_StatsScreen_qml.s
+	@echo ... 583b26bd65784e365b6a17ad37ef9841/.rcc/qmlcache/appQR_code_conundrum_TutorialScreen_qml.obj
+	@echo ... 583b26bd65784e365b6a17ad37ef9841/.rcc/qmlcache/appQR_code_conundrum_TutorialScreen_qml.i
+	@echo ... 583b26bd65784e365b6a17ad37ef9841/.rcc/qmlcache/appQR_code_conundrum_TutorialScreen_qml.s
 	@echo ... 583b26bd65784e365b6a17ad37ef9841/.rcc/qmlcache/appQR_code_conundrum_qmlcache_loader.obj
 	@echo ... 583b26bd65784e365b6a17ad37ef9841/.rcc/qmlcache/appQR_code_conundrum_qmlcache_loader.i
 	@echo ... 583b26bd65784e365b6a17ad37ef9841/.rcc/qmlcache/appQR_code_conundrum_qmlcache_loader.s
@@ -696,6 +801,9 @@ help:
 	@echo ... build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/.qt/rcc/qrc_qmake_QR_code_conundrum.obj
 	@echo ... build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/.qt/rcc/qrc_qmake_QR_code_conundrum.i
 	@echo ... build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/.qt/rcc/qrc_qmake_QR_code_conundrum.s
+	@echo ... build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/.rcc/qmlcache/appQR_code_conundrum_MainMenu_qml.obj
+	@echo ... build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/.rcc/qmlcache/appQR_code_conundrum_MainMenu_qml.i
+	@echo ... build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/.rcc/qmlcache/appQR_code_conundrum_MainMenu_qml.s
 	@echo ... build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/.rcc/qmlcache/appQR_code_conundrum_main_qml.obj
 	@echo ... build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/.rcc/qmlcache/appQR_code_conundrum_main_qml.i
 	@echo ... build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/.rcc/qmlcache/appQR_code_conundrum_main_qml.s

@@ -1,4 +1,4 @@
-#ifndef GAMECONTROLLER_H
+    #ifndef GAMECONTROLLER_H
 #define GAMECONTROLLER_H
 
 #include <QObject>
@@ -6,8 +6,7 @@
 #include "gridmodel.h"
 #include <QSettings>
 
-class GameController : public QObject
-{
+class GameController : public QObject {
     Q_OBJECT
     Q_PROPERTY(GridModel* gridModel READ gridModel CONSTANT)
 public:
@@ -27,8 +26,8 @@ public:
 private:
     QString loadRandomWord(int difficulty);
     GridModel m_gridModel;
-    QString m_secretWord;
-    int m_challengeMask = -1;
+    QString m_secretWord; //Загадене слов
+    int m_challengeMask = -1; // Згенерована маска
 };
 
 #endif // GAMECONTROLLER_H

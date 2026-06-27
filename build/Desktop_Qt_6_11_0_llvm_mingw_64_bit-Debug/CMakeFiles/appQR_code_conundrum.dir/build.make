@@ -119,38 +119,102 @@ QR_code_conundrum/appQR_code_conundrum.qmltypes: appqr_code_conundrum_qmltypereg
 .rcc/qmlcache/appQR_code_conundrum_main_qml.cpp.aotstats: .rcc/qmlcache/appQR_code_conundrum_main_qml.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate .rcc\qmlcache\appQR_code_conundrum_main_qml.cpp.aotstats
 
+.rcc/qmlcache/appQR_code_conundrum_MainMenu_qml.cpp: C:/Qt/6.11.0/llvm-mingw_64/bin/qmlcachegen.exe
+.rcc/qmlcache/appQR_code_conundrum_MainMenu_qml.cpp: C:/Users/Admin/Documents/QT_Creator_Project/QR_code_conundrum/MainMenu.qml
+.rcc/qmlcache/appQR_code_conundrum_MainMenu_qml.cpp: .qt/rcc/qmake_QR_code_conundrum.qrc
+.rcc/qmlcache/appQR_code_conundrum_MainMenu_qml.cpp: .qt/rcc/appQR_code_conundrum_raw_qml_0.qrc
+.rcc/qmlcache/appQR_code_conundrum_MainMenu_qml.cpp: .qt/rcc/appQR_code_conundrum_raw_res_0.qrc
+.rcc/qmlcache/appQR_code_conundrum_MainMenu_qml.cpp: QR_code_conundrum/appQR_code_conundrum.qmltypes
+.rcc/qmlcache/appQR_code_conundrum_MainMenu_qml.cpp: QR_code_conundrum/qmldir
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\Admin\Documents\QT_Creator_Project\QR_code_conundrum\build\Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating .rcc/qmlcache/appQR_code_conundrum_MainMenu_qml.cpp, .rcc/qmlcache/appQR_code_conundrum_MainMenu_qml.cpp.aotstats"
+	C:\Qt\Tools\CMake_64\bin\cmake.exe -E make_directory C:/Users/Admin/Documents/QT_Creator_Project/QR_code_conundrum/build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/.rcc/qmlcache
+	call .qt\bin\qt_setup_tool_path.bat C:/Qt/6.11.0/llvm-mingw_64/bin/qmlcachegen.exe --bare --resource-path /QR_code_conundrum/MainMenu.qml -I C:/Users/Admin/Documents/QT_Creator_Project/QR_code_conundrum/build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug -I C:/Qt/6.11.0/llvm-mingw_64/qml -i C:/Users/Admin/Documents/QT_Creator_Project/QR_code_conundrum/build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/QR_code_conundrum/qmldir --resource C:/Users/Admin/Documents/QT_Creator_Project/QR_code_conundrum/build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/.qt/rcc/qmake_QR_code_conundrum.qrc --resource C:/Users/Admin/Documents/QT_Creator_Project/QR_code_conundrum/build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/.qt/rcc/appQR_code_conundrum_raw_qml_0.qrc --resource C:/Users/Admin/Documents/QT_Creator_Project/QR_code_conundrum/build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/.qt/rcc/appQR_code_conundrum_raw_res_0.qrc --dump-aot-stats --module-id=QR_code_conundrum(appQR_code_conundrum) -o C:/Users/Admin/Documents/QT_Creator_Project/QR_code_conundrum/build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/.rcc/qmlcache/appQR_code_conundrum_MainMenu_qml.cpp C:/Users/Admin/Documents/QT_Creator_Project/QR_code_conundrum/MainMenu.qml
+
+.rcc/qmlcache/appQR_code_conundrum_MainMenu_qml.cpp.aotstats: .rcc/qmlcache/appQR_code_conundrum_MainMenu_qml.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate .rcc\qmlcache\appQR_code_conundrum_MainMenu_qml.cpp.aotstats
+
+.rcc/qmlcache/appQR_code_conundrum_GameScreen_qml.cpp: C:/Qt/6.11.0/llvm-mingw_64/bin/qmlcachegen.exe
+.rcc/qmlcache/appQR_code_conundrum_GameScreen_qml.cpp: C:/Users/Admin/Documents/QT_Creator_Project/QR_code_conundrum/GameScreen.qml
+.rcc/qmlcache/appQR_code_conundrum_GameScreen_qml.cpp: .qt/rcc/qmake_QR_code_conundrum.qrc
+.rcc/qmlcache/appQR_code_conundrum_GameScreen_qml.cpp: .qt/rcc/appQR_code_conundrum_raw_qml_0.qrc
+.rcc/qmlcache/appQR_code_conundrum_GameScreen_qml.cpp: .qt/rcc/appQR_code_conundrum_raw_res_0.qrc
+.rcc/qmlcache/appQR_code_conundrum_GameScreen_qml.cpp: QR_code_conundrum/appQR_code_conundrum.qmltypes
+.rcc/qmlcache/appQR_code_conundrum_GameScreen_qml.cpp: QR_code_conundrum/qmldir
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\Admin\Documents\QT_Creator_Project\QR_code_conundrum\build\Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating .rcc/qmlcache/appQR_code_conundrum_GameScreen_qml.cpp, .rcc/qmlcache/appQR_code_conundrum_GameScreen_qml.cpp.aotstats"
+	C:\Qt\Tools\CMake_64\bin\cmake.exe -E make_directory C:/Users/Admin/Documents/QT_Creator_Project/QR_code_conundrum/build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/.rcc/qmlcache
+	call .qt\bin\qt_setup_tool_path.bat C:/Qt/6.11.0/llvm-mingw_64/bin/qmlcachegen.exe --bare --resource-path /QR_code_conundrum/GameScreen.qml -I C:/Users/Admin/Documents/QT_Creator_Project/QR_code_conundrum/build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug -I C:/Qt/6.11.0/llvm-mingw_64/qml -i C:/Users/Admin/Documents/QT_Creator_Project/QR_code_conundrum/build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/QR_code_conundrum/qmldir --resource C:/Users/Admin/Documents/QT_Creator_Project/QR_code_conundrum/build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/.qt/rcc/qmake_QR_code_conundrum.qrc --resource C:/Users/Admin/Documents/QT_Creator_Project/QR_code_conundrum/build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/.qt/rcc/appQR_code_conundrum_raw_qml_0.qrc --resource C:/Users/Admin/Documents/QT_Creator_Project/QR_code_conundrum/build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/.qt/rcc/appQR_code_conundrum_raw_res_0.qrc --dump-aot-stats --module-id=QR_code_conundrum(appQR_code_conundrum) -o C:/Users/Admin/Documents/QT_Creator_Project/QR_code_conundrum/build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/.rcc/qmlcache/appQR_code_conundrum_GameScreen_qml.cpp C:/Users/Admin/Documents/QT_Creator_Project/QR_code_conundrum/GameScreen.qml
+
+.rcc/qmlcache/appQR_code_conundrum_GameScreen_qml.cpp.aotstats: .rcc/qmlcache/appQR_code_conundrum_GameScreen_qml.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate .rcc\qmlcache\appQR_code_conundrum_GameScreen_qml.cpp.aotstats
+
+.rcc/qmlcache/appQR_code_conundrum_StatsScreen_qml.cpp: C:/Qt/6.11.0/llvm-mingw_64/bin/qmlcachegen.exe
+.rcc/qmlcache/appQR_code_conundrum_StatsScreen_qml.cpp: C:/Users/Admin/Documents/QT_Creator_Project/QR_code_conundrum/StatsScreen.qml
+.rcc/qmlcache/appQR_code_conundrum_StatsScreen_qml.cpp: .qt/rcc/qmake_QR_code_conundrum.qrc
+.rcc/qmlcache/appQR_code_conundrum_StatsScreen_qml.cpp: .qt/rcc/appQR_code_conundrum_raw_qml_0.qrc
+.rcc/qmlcache/appQR_code_conundrum_StatsScreen_qml.cpp: .qt/rcc/appQR_code_conundrum_raw_res_0.qrc
+.rcc/qmlcache/appQR_code_conundrum_StatsScreen_qml.cpp: QR_code_conundrum/appQR_code_conundrum.qmltypes
+.rcc/qmlcache/appQR_code_conundrum_StatsScreen_qml.cpp: QR_code_conundrum/qmldir
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\Admin\Documents\QT_Creator_Project\QR_code_conundrum\build\Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating .rcc/qmlcache/appQR_code_conundrum_StatsScreen_qml.cpp, .rcc/qmlcache/appQR_code_conundrum_StatsScreen_qml.cpp.aotstats"
+	C:\Qt\Tools\CMake_64\bin\cmake.exe -E make_directory C:/Users/Admin/Documents/QT_Creator_Project/QR_code_conundrum/build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/.rcc/qmlcache
+	call .qt\bin\qt_setup_tool_path.bat C:/Qt/6.11.0/llvm-mingw_64/bin/qmlcachegen.exe --bare --resource-path /QR_code_conundrum/StatsScreen.qml -I C:/Users/Admin/Documents/QT_Creator_Project/QR_code_conundrum/build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug -I C:/Qt/6.11.0/llvm-mingw_64/qml -i C:/Users/Admin/Documents/QT_Creator_Project/QR_code_conundrum/build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/QR_code_conundrum/qmldir --resource C:/Users/Admin/Documents/QT_Creator_Project/QR_code_conundrum/build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/.qt/rcc/qmake_QR_code_conundrum.qrc --resource C:/Users/Admin/Documents/QT_Creator_Project/QR_code_conundrum/build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/.qt/rcc/appQR_code_conundrum_raw_qml_0.qrc --resource C:/Users/Admin/Documents/QT_Creator_Project/QR_code_conundrum/build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/.qt/rcc/appQR_code_conundrum_raw_res_0.qrc --dump-aot-stats --module-id=QR_code_conundrum(appQR_code_conundrum) -o C:/Users/Admin/Documents/QT_Creator_Project/QR_code_conundrum/build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/.rcc/qmlcache/appQR_code_conundrum_StatsScreen_qml.cpp C:/Users/Admin/Documents/QT_Creator_Project/QR_code_conundrum/StatsScreen.qml
+
+.rcc/qmlcache/appQR_code_conundrum_StatsScreen_qml.cpp.aotstats: .rcc/qmlcache/appQR_code_conundrum_StatsScreen_qml.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate .rcc\qmlcache\appQR_code_conundrum_StatsScreen_qml.cpp.aotstats
+
+.rcc/qmlcache/appQR_code_conundrum_TutorialScreen_qml.cpp: C:/Qt/6.11.0/llvm-mingw_64/bin/qmlcachegen.exe
+.rcc/qmlcache/appQR_code_conundrum_TutorialScreen_qml.cpp: C:/Users/Admin/Documents/QT_Creator_Project/QR_code_conundrum/TutorialScreen.qml
+.rcc/qmlcache/appQR_code_conundrum_TutorialScreen_qml.cpp: .qt/rcc/qmake_QR_code_conundrum.qrc
+.rcc/qmlcache/appQR_code_conundrum_TutorialScreen_qml.cpp: .qt/rcc/appQR_code_conundrum_raw_qml_0.qrc
+.rcc/qmlcache/appQR_code_conundrum_TutorialScreen_qml.cpp: .qt/rcc/appQR_code_conundrum_raw_res_0.qrc
+.rcc/qmlcache/appQR_code_conundrum_TutorialScreen_qml.cpp: QR_code_conundrum/appQR_code_conundrum.qmltypes
+.rcc/qmlcache/appQR_code_conundrum_TutorialScreen_qml.cpp: QR_code_conundrum/qmldir
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\Admin\Documents\QT_Creator_Project\QR_code_conundrum\build\Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating .rcc/qmlcache/appQR_code_conundrum_TutorialScreen_qml.cpp, .rcc/qmlcache/appQR_code_conundrum_TutorialScreen_qml.cpp.aotstats"
+	C:\Qt\Tools\CMake_64\bin\cmake.exe -E make_directory C:/Users/Admin/Documents/QT_Creator_Project/QR_code_conundrum/build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/.rcc/qmlcache
+	call .qt\bin\qt_setup_tool_path.bat C:/Qt/6.11.0/llvm-mingw_64/bin/qmlcachegen.exe --bare --resource-path /QR_code_conundrum/TutorialScreen.qml -I C:/Users/Admin/Documents/QT_Creator_Project/QR_code_conundrum/build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug -I C:/Qt/6.11.0/llvm-mingw_64/qml -i C:/Users/Admin/Documents/QT_Creator_Project/QR_code_conundrum/build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/QR_code_conundrum/qmldir --resource C:/Users/Admin/Documents/QT_Creator_Project/QR_code_conundrum/build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/.qt/rcc/qmake_QR_code_conundrum.qrc --resource C:/Users/Admin/Documents/QT_Creator_Project/QR_code_conundrum/build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/.qt/rcc/appQR_code_conundrum_raw_qml_0.qrc --resource C:/Users/Admin/Documents/QT_Creator_Project/QR_code_conundrum/build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/.qt/rcc/appQR_code_conundrum_raw_res_0.qrc --dump-aot-stats --module-id=QR_code_conundrum(appQR_code_conundrum) -o C:/Users/Admin/Documents/QT_Creator_Project/QR_code_conundrum/build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/.rcc/qmlcache/appQR_code_conundrum_TutorialScreen_qml.cpp C:/Users/Admin/Documents/QT_Creator_Project/QR_code_conundrum/TutorialScreen.qml
+
+.rcc/qmlcache/appQR_code_conundrum_TutorialScreen_qml.cpp.aotstats: .rcc/qmlcache/appQR_code_conundrum_TutorialScreen_qml.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate .rcc\qmlcache\appQR_code_conundrum_TutorialScreen_qml.cpp.aotstats
+
 .qt/rcc/qrc_appQR_code_conundrum_raw_qml_0.cpp: C:/Users/Admin/Documents/QT_Creator_Project/QR_code_conundrum/main.qml
+.qt/rcc/qrc_appQR_code_conundrum_raw_qml_0.cpp: C:/Users/Admin/Documents/QT_Creator_Project/QR_code_conundrum/MainMenu.qml
+.qt/rcc/qrc_appQR_code_conundrum_raw_qml_0.cpp: C:/Users/Admin/Documents/QT_Creator_Project/QR_code_conundrum/GameScreen.qml
+.qt/rcc/qrc_appQR_code_conundrum_raw_qml_0.cpp: C:/Users/Admin/Documents/QT_Creator_Project/QR_code_conundrum/StatsScreen.qml
+.qt/rcc/qrc_appQR_code_conundrum_raw_qml_0.cpp: C:/Users/Admin/Documents/QT_Creator_Project/QR_code_conundrum/TutorialScreen.qml
 .qt/rcc/qrc_appQR_code_conundrum_raw_qml_0.cpp: .qt/rcc/appQR_code_conundrum_raw_qml_0.qrc
 .qt/rcc/qrc_appQR_code_conundrum_raw_qml_0.cpp: C:/Qt/6.11.0/llvm-mingw_64/bin/rcc.exe
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\Admin\Documents\QT_Creator_Project\QR_code_conundrum\build\Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Running rcc for resource appQR_code_conundrum_raw_qml_0"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\Admin\Documents\QT_Creator_Project\QR_code_conundrum\build\Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Running rcc for resource appQR_code_conundrum_raw_qml_0"
 	C:\Qt\6.11.0\llvm-mingw_64\bin\rcc.exe --output C:/Users/Admin/Documents/QT_Creator_Project/QR_code_conundrum/build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/.qt/rcc/qrc_appQR_code_conundrum_raw_qml_0.cpp --name appQR_code_conundrum_raw_qml_0 C:/Users/Admin/Documents/QT_Creator_Project/QR_code_conundrum/build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/.qt/rcc/appQR_code_conundrum_raw_qml_0.qrc --no-zstd
 
-.qt/rcc/qrc_appQR_code_conundrum_raw_res_0.cpp: C:/Users/Admin/Documents/QT_Creator_Project/QR_code_conundrum/draft
+.qt/rcc/qrc_appQR_code_conundrum_raw_res_0.cpp: C:/Users/Admin/Documents/QT_Creator_Project/QR_code_conundrum/tuto_1_anatomy.png
+.qt/rcc/qrc_appQR_code_conundrum_raw_res_0.cpp: C:/Users/Admin/Documents/QT_Creator_Project/QR_code_conundrum/tuto_2_masks.png
+.qt/rcc/qrc_appQR_code_conundrum_raw_res_0.cpp: C:/Users/Admin/Documents/QT_Creator_Project/QR_code_conundrum/tuto_3_header.png
+.qt/rcc/qrc_appQR_code_conundrum_raw_res_0.cpp: C:/Users/Admin/Documents/QT_Creator_Project/QR_code_conundrum/tuto_4_snake.png
+.qt/rcc/qrc_appQR_code_conundrum_raw_res_0.cpp: C:/Users/Admin/Documents/QT_Creator_Project/QR_code_conundrum/tuto_5_chars.png
 .qt/rcc/qrc_appQR_code_conundrum_raw_res_0.cpp: .qt/rcc/appQR_code_conundrum_raw_res_0.qrc
 .qt/rcc/qrc_appQR_code_conundrum_raw_res_0.cpp: C:/Qt/6.11.0/llvm-mingw_64/bin/rcc.exe
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\Admin\Documents\QT_Creator_Project\QR_code_conundrum\build\Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Running rcc for resource appQR_code_conundrum_raw_res_0"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\Admin\Documents\QT_Creator_Project\QR_code_conundrum\build\Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Running rcc for resource appQR_code_conundrum_raw_res_0"
 	C:\Qt\6.11.0\llvm-mingw_64\bin\rcc.exe --output C:/Users/Admin/Documents/QT_Creator_Project/QR_code_conundrum/build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/.qt/rcc/qrc_appQR_code_conundrum_raw_res_0.cpp --name appQR_code_conundrum_raw_res_0 C:/Users/Admin/Documents/QT_Creator_Project/QR_code_conundrum/build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/.qt/rcc/appQR_code_conundrum_raw_res_0.qrc --no-zstd
 
 appQR_code_conundrum_autogen/timestamp: C:/Qt/6.11.0/llvm-mingw_64/bin/moc.exe
 appQR_code_conundrum_autogen/timestamp: CMakeFiles/appQR_code_conundrum.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\Admin\Documents\QT_Creator_Project\QR_code_conundrum\build\Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Automatic MOC for target appQR_code_conundrum"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\Admin\Documents\QT_Creator_Project\QR_code_conundrum\build\Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Automatic MOC for target appQR_code_conundrum"
 	C:\Qt\Tools\CMake_64\bin\cmake.exe -E cmake_autogen C:/Users/Admin/Documents/QT_Creator_Project/QR_code_conundrum/build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/CMakeFiles/appQR_code_conundrum_autogen.dir/AutogenInfo.json Debug
 	C:\Qt\Tools\CMake_64\bin\cmake.exe -E touch C:/Users/Admin/Documents/QT_Creator_Project/QR_code_conundrum/build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/appQR_code_conundrum_autogen/timestamp
 
 meta_types/appQR_code_conundrum_json_file_list.txt: C:/Qt/6.11.0/llvm-mingw_64/bin/cmake_automoc_parser.exe
 meta_types/appQR_code_conundrum_json_file_list.txt: appQR_code_conundrum_autogen/timestamp
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\Admin\Documents\QT_Creator_Project\QR_code_conundrum\build\Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Running AUTOMOC file extraction for target appQR_code_conundrum"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\Admin\Documents\QT_Creator_Project\QR_code_conundrum\build\Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Running AUTOMOC file extraction for target appQR_code_conundrum"
 	C:\Qt\6.11.0\llvm-mingw_64\bin\cmake_automoc_parser.exe --cmake-autogen-cache-file C:/Users/Admin/Documents/QT_Creator_Project/QR_code_conundrum/build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/CMakeFiles/appQR_code_conundrum_autogen.dir/ParseCache.txt --cmake-autogen-info-file C:/Users/Admin/Documents/QT_Creator_Project/QR_code_conundrum/build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/CMakeFiles/appQR_code_conundrum_autogen.dir/AutogenInfo.json --output-file-path C:/Users/Admin/Documents/QT_Creator_Project/QR_code_conundrum/build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/meta_types/appQR_code_conundrum_json_file_list.txt --timestamp-file-path C:/Users/Admin/Documents/QT_Creator_Project/QR_code_conundrum/build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/meta_types/appQR_code_conundrum_json_file_list.txt.timestamp --cmake-autogen-include-dir-path C:/Users/Admin/Documents/QT_Creator_Project/QR_code_conundrum/build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/appQR_code_conundrum_autogen/include
 
 meta_types/qt6appqr_code_conundrum_metatypes.json: meta_types/qt6appqr_code_conundrum_metatypes.json.gen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\Admin\Documents\QT_Creator_Project\QR_code_conundrum\build\Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Generating meta_types/qt6appqr_code_conundrum_metatypes.json"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\Admin\Documents\QT_Creator_Project\QR_code_conundrum\build\Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Generating meta_types/qt6appqr_code_conundrum_metatypes.json"
 	C:\Qt\Tools\CMake_64\bin\cmake.exe -E true
 
 CMakeFiles/appQR_code_conundrum.dir/appQR_code_conundrum_autogen/mocs_compilation.cpp.obj: CMakeFiles/appQR_code_conundrum.dir/flags.make
 CMakeFiles/appQR_code_conundrum.dir/appQR_code_conundrum_autogen/mocs_compilation.cpp.obj: CMakeFiles/appQR_code_conundrum.dir/includes_CXX.rsp
 CMakeFiles/appQR_code_conundrum.dir/appQR_code_conundrum_autogen/mocs_compilation.cpp.obj: appQR_code_conundrum_autogen/mocs_compilation.cpp
 CMakeFiles/appQR_code_conundrum.dir/appQR_code_conundrum_autogen/mocs_compilation.cpp.obj: CMakeFiles/appQR_code_conundrum.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Admin\Documents\QT_Creator_Project\QR_code_conundrum\build\Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/appQR_code_conundrum.dir/appQR_code_conundrum_autogen/mocs_compilation.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Admin\Documents\QT_Creator_Project\QR_code_conundrum\build\Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/appQR_code_conundrum.dir/appQR_code_conundrum_autogen/mocs_compilation.cpp.obj"
 	C:\Qt\Tools\llvm-mingw1706_64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appQR_code_conundrum.dir/appQR_code_conundrum_autogen/mocs_compilation.cpp.obj -MF CMakeFiles\appQR_code_conundrum.dir\appQR_code_conundrum_autogen\mocs_compilation.cpp.obj.d -o CMakeFiles\appQR_code_conundrum.dir\appQR_code_conundrum_autogen\mocs_compilation.cpp.obj -c C:\Users\Admin\Documents\QT_Creator_Project\QR_code_conundrum\build\Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug\appQR_code_conundrum_autogen\mocs_compilation.cpp
 
 CMakeFiles/appQR_code_conundrum.dir/appQR_code_conundrum_autogen/mocs_compilation.cpp.i: cmake_force
@@ -165,7 +229,7 @@ CMakeFiles/appQR_code_conundrum.dir/main.cpp.obj: CMakeFiles/appQR_code_conundru
 CMakeFiles/appQR_code_conundrum.dir/main.cpp.obj: CMakeFiles/appQR_code_conundrum.dir/includes_CXX.rsp
 CMakeFiles/appQR_code_conundrum.dir/main.cpp.obj: C:/Users/Admin/Documents/QT_Creator_Project/QR_code_conundrum/main.cpp
 CMakeFiles/appQR_code_conundrum.dir/main.cpp.obj: CMakeFiles/appQR_code_conundrum.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Admin\Documents\QT_Creator_Project\QR_code_conundrum\build\Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/appQR_code_conundrum.dir/main.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Admin\Documents\QT_Creator_Project\QR_code_conundrum\build\Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/appQR_code_conundrum.dir/main.cpp.obj"
 	C:\Qt\Tools\llvm-mingw1706_64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appQR_code_conundrum.dir/main.cpp.obj -MF CMakeFiles\appQR_code_conundrum.dir\main.cpp.obj.d -o CMakeFiles\appQR_code_conundrum.dir\main.cpp.obj -c C:\Users\Admin\Documents\QT_Creator_Project\QR_code_conundrum\main.cpp
 
 CMakeFiles/appQR_code_conundrum.dir/main.cpp.i: cmake_force
@@ -180,7 +244,7 @@ CMakeFiles/appQR_code_conundrum.dir/appqr_code_conundrum_qmltyperegistrations.cp
 CMakeFiles/appQR_code_conundrum.dir/appqr_code_conundrum_qmltyperegistrations.cpp.obj: CMakeFiles/appQR_code_conundrum.dir/includes_CXX.rsp
 CMakeFiles/appQR_code_conundrum.dir/appqr_code_conundrum_qmltyperegistrations.cpp.obj: appqr_code_conundrum_qmltyperegistrations.cpp
 CMakeFiles/appQR_code_conundrum.dir/appqr_code_conundrum_qmltyperegistrations.cpp.obj: CMakeFiles/appQR_code_conundrum.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Admin\Documents\QT_Creator_Project\QR_code_conundrum\build\Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/appQR_code_conundrum.dir/appqr_code_conundrum_qmltyperegistrations.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Admin\Documents\QT_Creator_Project\QR_code_conundrum\build\Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/appQR_code_conundrum.dir/appqr_code_conundrum_qmltyperegistrations.cpp.obj"
 	C:\Qt\Tools\llvm-mingw1706_64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Wa,-mbig-obj -MD -MT CMakeFiles/appQR_code_conundrum.dir/appqr_code_conundrum_qmltyperegistrations.cpp.obj -MF CMakeFiles\appQR_code_conundrum.dir\appqr_code_conundrum_qmltyperegistrations.cpp.obj.d -o CMakeFiles\appQR_code_conundrum.dir\appqr_code_conundrum_qmltyperegistrations.cpp.obj -c C:\Users\Admin\Documents\QT_Creator_Project\QR_code_conundrum\build\Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug\appqr_code_conundrum_qmltyperegistrations.cpp
 
 CMakeFiles/appQR_code_conundrum.dir/appqr_code_conundrum_qmltyperegistrations.cpp.i: cmake_force
@@ -195,7 +259,7 @@ CMakeFiles/appQR_code_conundrum.dir/build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-De
 CMakeFiles/appQR_code_conundrum.dir/build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/.qt/rcc/qrc_qmake_QR_code_conundrum.cpp.obj: CMakeFiles/appQR_code_conundrum.dir/includes_CXX.rsp
 CMakeFiles/appQR_code_conundrum.dir/build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/.qt/rcc/qrc_qmake_QR_code_conundrum.cpp.obj: .qt/rcc/qrc_qmake_QR_code_conundrum.cpp
 CMakeFiles/appQR_code_conundrum.dir/build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/.qt/rcc/qrc_qmake_QR_code_conundrum.cpp.obj: CMakeFiles/appQR_code_conundrum.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Admin\Documents\QT_Creator_Project\QR_code_conundrum\build\Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/appQR_code_conundrum.dir/build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/.qt/rcc/qrc_qmake_QR_code_conundrum.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Admin\Documents\QT_Creator_Project\QR_code_conundrum\build\Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/appQR_code_conundrum.dir/build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/.qt/rcc/qrc_qmake_QR_code_conundrum.cpp.obj"
 	C:\Qt\Tools\llvm-mingw1706_64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appQR_code_conundrum.dir/build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/.qt/rcc/qrc_qmake_QR_code_conundrum.cpp.obj -MF CMakeFiles\appQR_code_conundrum.dir\build\Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug\.qt\rcc\qrc_qmake_QR_code_conundrum.cpp.obj.d -o CMakeFiles\appQR_code_conundrum.dir\build\Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug\.qt\rcc\qrc_qmake_QR_code_conundrum.cpp.obj -c C:\Users\Admin\Documents\QT_Creator_Project\QR_code_conundrum\build\Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug\.qt\rcc\qrc_qmake_QR_code_conundrum.cpp
 
 CMakeFiles/appQR_code_conundrum.dir/build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/.qt/rcc/qrc_qmake_QR_code_conundrum.cpp.i: cmake_force
@@ -210,7 +274,7 @@ CMakeFiles/appQR_code_conundrum.dir/gamecontroller.cpp.obj: CMakeFiles/appQR_cod
 CMakeFiles/appQR_code_conundrum.dir/gamecontroller.cpp.obj: CMakeFiles/appQR_code_conundrum.dir/includes_CXX.rsp
 CMakeFiles/appQR_code_conundrum.dir/gamecontroller.cpp.obj: C:/Users/Admin/Documents/QT_Creator_Project/QR_code_conundrum/gamecontroller.cpp
 CMakeFiles/appQR_code_conundrum.dir/gamecontroller.cpp.obj: CMakeFiles/appQR_code_conundrum.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Admin\Documents\QT_Creator_Project\QR_code_conundrum\build\Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/appQR_code_conundrum.dir/gamecontroller.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Admin\Documents\QT_Creator_Project\QR_code_conundrum\build\Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/appQR_code_conundrum.dir/gamecontroller.cpp.obj"
 	C:\Qt\Tools\llvm-mingw1706_64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appQR_code_conundrum.dir/gamecontroller.cpp.obj -MF CMakeFiles\appQR_code_conundrum.dir\gamecontroller.cpp.obj.d -o CMakeFiles\appQR_code_conundrum.dir\gamecontroller.cpp.obj -c C:\Users\Admin\Documents\QT_Creator_Project\QR_code_conundrum\gamecontroller.cpp
 
 CMakeFiles/appQR_code_conundrum.dir/gamecontroller.cpp.i: cmake_force
@@ -225,7 +289,7 @@ CMakeFiles/appQR_code_conundrum.dir/gridmodel.cpp.obj: CMakeFiles/appQR_code_con
 CMakeFiles/appQR_code_conundrum.dir/gridmodel.cpp.obj: CMakeFiles/appQR_code_conundrum.dir/includes_CXX.rsp
 CMakeFiles/appQR_code_conundrum.dir/gridmodel.cpp.obj: C:/Users/Admin/Documents/QT_Creator_Project/QR_code_conundrum/gridmodel.cpp
 CMakeFiles/appQR_code_conundrum.dir/gridmodel.cpp.obj: CMakeFiles/appQR_code_conundrum.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Admin\Documents\QT_Creator_Project\QR_code_conundrum\build\Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/appQR_code_conundrum.dir/gridmodel.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Admin\Documents\QT_Creator_Project\QR_code_conundrum\build\Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/appQR_code_conundrum.dir/gridmodel.cpp.obj"
 	C:\Qt\Tools\llvm-mingw1706_64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appQR_code_conundrum.dir/gridmodel.cpp.obj -MF CMakeFiles\appQR_code_conundrum.dir\gridmodel.cpp.obj.d -o CMakeFiles\appQR_code_conundrum.dir\gridmodel.cpp.obj -c C:\Users\Admin\Documents\QT_Creator_Project\QR_code_conundrum\gridmodel.cpp
 
 CMakeFiles/appQR_code_conundrum.dir/gridmodel.cpp.i: cmake_force
@@ -240,7 +304,7 @@ CMakeFiles/appQR_code_conundrum.dir/583b26bd65784e365b6a17ad37ef9841/.rcc/qmlcac
 CMakeFiles/appQR_code_conundrum.dir/583b26bd65784e365b6a17ad37ef9841/.rcc/qmlcache/appQR_code_conundrum_qmlcache_loader.cpp.obj: CMakeFiles/appQR_code_conundrum.dir/includes_CXX.rsp
 CMakeFiles/appQR_code_conundrum.dir/583b26bd65784e365b6a17ad37ef9841/.rcc/qmlcache/appQR_code_conundrum_qmlcache_loader.cpp.obj: .rcc/qmlcache/appQR_code_conundrum_qmlcache_loader.cpp
 CMakeFiles/appQR_code_conundrum.dir/583b26bd65784e365b6a17ad37ef9841/.rcc/qmlcache/appQR_code_conundrum_qmlcache_loader.cpp.obj: CMakeFiles/appQR_code_conundrum.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Admin\Documents\QT_Creator_Project\QR_code_conundrum\build\Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/appQR_code_conundrum.dir/583b26bd65784e365b6a17ad37ef9841/.rcc/qmlcache/appQR_code_conundrum_qmlcache_loader.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Admin\Documents\QT_Creator_Project\QR_code_conundrum\build\Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/appQR_code_conundrum.dir/583b26bd65784e365b6a17ad37ef9841/.rcc/qmlcache/appQR_code_conundrum_qmlcache_loader.cpp.obj"
 	C:\Qt\Tools\llvm-mingw1706_64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appQR_code_conundrum.dir/583b26bd65784e365b6a17ad37ef9841/.rcc/qmlcache/appQR_code_conundrum_qmlcache_loader.cpp.obj -MF CMakeFiles\appQR_code_conundrum.dir\583b26bd65784e365b6a17ad37ef9841\.rcc\qmlcache\appQR_code_conundrum_qmlcache_loader.cpp.obj.d -o CMakeFiles\appQR_code_conundrum.dir\583b26bd65784e365b6a17ad37ef9841\.rcc\qmlcache\appQR_code_conundrum_qmlcache_loader.cpp.obj -c C:\Users\Admin\Documents\QT_Creator_Project\QR_code_conundrum\build\Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug\.rcc\qmlcache\appQR_code_conundrum_qmlcache_loader.cpp
 
 CMakeFiles/appQR_code_conundrum.dir/583b26bd65784e365b6a17ad37ef9841/.rcc/qmlcache/appQR_code_conundrum_qmlcache_loader.cpp.i: cmake_force
@@ -255,7 +319,7 @@ CMakeFiles/appQR_code_conundrum.dir/build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-De
 CMakeFiles/appQR_code_conundrum.dir/build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/.rcc/qmlcache/appQR_code_conundrum_main_qml.cpp.obj: CMakeFiles/appQR_code_conundrum.dir/includes_CXX.rsp
 CMakeFiles/appQR_code_conundrum.dir/build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/.rcc/qmlcache/appQR_code_conundrum_main_qml.cpp.obj: .rcc/qmlcache/appQR_code_conundrum_main_qml.cpp
 CMakeFiles/appQR_code_conundrum.dir/build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/.rcc/qmlcache/appQR_code_conundrum_main_qml.cpp.obj: CMakeFiles/appQR_code_conundrum.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Admin\Documents\QT_Creator_Project\QR_code_conundrum\build\Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/appQR_code_conundrum.dir/build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/.rcc/qmlcache/appQR_code_conundrum_main_qml.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Admin\Documents\QT_Creator_Project\QR_code_conundrum\build\Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/appQR_code_conundrum.dir/build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/.rcc/qmlcache/appQR_code_conundrum_main_qml.cpp.obj"
 	C:\Qt\Tools\llvm-mingw1706_64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appQR_code_conundrum.dir/build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/.rcc/qmlcache/appQR_code_conundrum_main_qml.cpp.obj -MF CMakeFiles\appQR_code_conundrum.dir\build\Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug\.rcc\qmlcache\appQR_code_conundrum_main_qml.cpp.obj.d -o CMakeFiles\appQR_code_conundrum.dir\build\Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug\.rcc\qmlcache\appQR_code_conundrum_main_qml.cpp.obj -c C:\Users\Admin\Documents\QT_Creator_Project\QR_code_conundrum\build\Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug\.rcc\qmlcache\appQR_code_conundrum_main_qml.cpp
 
 CMakeFiles/appQR_code_conundrum.dir/build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/.rcc/qmlcache/appQR_code_conundrum_main_qml.cpp.i: cmake_force
@@ -266,11 +330,71 @@ CMakeFiles/appQR_code_conundrum.dir/build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-De
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/appQR_code_conundrum.dir/build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/.rcc/qmlcache/appQR_code_conundrum_main_qml.cpp.s"
 	C:\Qt\Tools\llvm-mingw1706_64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Admin\Documents\QT_Creator_Project\QR_code_conundrum\build\Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug\.rcc\qmlcache\appQR_code_conundrum_main_qml.cpp -o CMakeFiles\appQR_code_conundrum.dir\build\Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug\.rcc\qmlcache\appQR_code_conundrum_main_qml.cpp.s
 
+CMakeFiles/appQR_code_conundrum.dir/build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/.rcc/qmlcache/appQR_code_conundrum_MainMenu_qml.cpp.obj: CMakeFiles/appQR_code_conundrum.dir/flags.make
+CMakeFiles/appQR_code_conundrum.dir/build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/.rcc/qmlcache/appQR_code_conundrum_MainMenu_qml.cpp.obj: CMakeFiles/appQR_code_conundrum.dir/includes_CXX.rsp
+CMakeFiles/appQR_code_conundrum.dir/build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/.rcc/qmlcache/appQR_code_conundrum_MainMenu_qml.cpp.obj: .rcc/qmlcache/appQR_code_conundrum_MainMenu_qml.cpp
+CMakeFiles/appQR_code_conundrum.dir/build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/.rcc/qmlcache/appQR_code_conundrum_MainMenu_qml.cpp.obj: CMakeFiles/appQR_code_conundrum.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Admin\Documents\QT_Creator_Project\QR_code_conundrum\build\Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/appQR_code_conundrum.dir/build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/.rcc/qmlcache/appQR_code_conundrum_MainMenu_qml.cpp.obj"
+	C:\Qt\Tools\llvm-mingw1706_64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appQR_code_conundrum.dir/build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/.rcc/qmlcache/appQR_code_conundrum_MainMenu_qml.cpp.obj -MF CMakeFiles\appQR_code_conundrum.dir\build\Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug\.rcc\qmlcache\appQR_code_conundrum_MainMenu_qml.cpp.obj.d -o CMakeFiles\appQR_code_conundrum.dir\build\Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug\.rcc\qmlcache\appQR_code_conundrum_MainMenu_qml.cpp.obj -c C:\Users\Admin\Documents\QT_Creator_Project\QR_code_conundrum\build\Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug\.rcc\qmlcache\appQR_code_conundrum_MainMenu_qml.cpp
+
+CMakeFiles/appQR_code_conundrum.dir/build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/.rcc/qmlcache/appQR_code_conundrum_MainMenu_qml.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/appQR_code_conundrum.dir/build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/.rcc/qmlcache/appQR_code_conundrum_MainMenu_qml.cpp.i"
+	C:\Qt\Tools\llvm-mingw1706_64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Admin\Documents\QT_Creator_Project\QR_code_conundrum\build\Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug\.rcc\qmlcache\appQR_code_conundrum_MainMenu_qml.cpp > CMakeFiles\appQR_code_conundrum.dir\build\Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug\.rcc\qmlcache\appQR_code_conundrum_MainMenu_qml.cpp.i
+
+CMakeFiles/appQR_code_conundrum.dir/build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/.rcc/qmlcache/appQR_code_conundrum_MainMenu_qml.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/appQR_code_conundrum.dir/build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/.rcc/qmlcache/appQR_code_conundrum_MainMenu_qml.cpp.s"
+	C:\Qt\Tools\llvm-mingw1706_64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Admin\Documents\QT_Creator_Project\QR_code_conundrum\build\Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug\.rcc\qmlcache\appQR_code_conundrum_MainMenu_qml.cpp -o CMakeFiles\appQR_code_conundrum.dir\build\Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug\.rcc\qmlcache\appQR_code_conundrum_MainMenu_qml.cpp.s
+
+CMakeFiles/appQR_code_conundrum.dir/583b26bd65784e365b6a17ad37ef9841/.rcc/qmlcache/appQR_code_conundrum_GameScreen_qml.cpp.obj: CMakeFiles/appQR_code_conundrum.dir/flags.make
+CMakeFiles/appQR_code_conundrum.dir/583b26bd65784e365b6a17ad37ef9841/.rcc/qmlcache/appQR_code_conundrum_GameScreen_qml.cpp.obj: CMakeFiles/appQR_code_conundrum.dir/includes_CXX.rsp
+CMakeFiles/appQR_code_conundrum.dir/583b26bd65784e365b6a17ad37ef9841/.rcc/qmlcache/appQR_code_conundrum_GameScreen_qml.cpp.obj: .rcc/qmlcache/appQR_code_conundrum_GameScreen_qml.cpp
+CMakeFiles/appQR_code_conundrum.dir/583b26bd65784e365b6a17ad37ef9841/.rcc/qmlcache/appQR_code_conundrum_GameScreen_qml.cpp.obj: CMakeFiles/appQR_code_conundrum.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Admin\Documents\QT_Creator_Project\QR_code_conundrum\build\Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/appQR_code_conundrum.dir/583b26bd65784e365b6a17ad37ef9841/.rcc/qmlcache/appQR_code_conundrum_GameScreen_qml.cpp.obj"
+	C:\Qt\Tools\llvm-mingw1706_64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appQR_code_conundrum.dir/583b26bd65784e365b6a17ad37ef9841/.rcc/qmlcache/appQR_code_conundrum_GameScreen_qml.cpp.obj -MF CMakeFiles\appQR_code_conundrum.dir\583b26bd65784e365b6a17ad37ef9841\.rcc\qmlcache\appQR_code_conundrum_GameScreen_qml.cpp.obj.d -o CMakeFiles\appQR_code_conundrum.dir\583b26bd65784e365b6a17ad37ef9841\.rcc\qmlcache\appQR_code_conundrum_GameScreen_qml.cpp.obj -c C:\Users\Admin\Documents\QT_Creator_Project\QR_code_conundrum\build\Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug\.rcc\qmlcache\appQR_code_conundrum_GameScreen_qml.cpp
+
+CMakeFiles/appQR_code_conundrum.dir/583b26bd65784e365b6a17ad37ef9841/.rcc/qmlcache/appQR_code_conundrum_GameScreen_qml.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/appQR_code_conundrum.dir/583b26bd65784e365b6a17ad37ef9841/.rcc/qmlcache/appQR_code_conundrum_GameScreen_qml.cpp.i"
+	C:\Qt\Tools\llvm-mingw1706_64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Admin\Documents\QT_Creator_Project\QR_code_conundrum\build\Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug\.rcc\qmlcache\appQR_code_conundrum_GameScreen_qml.cpp > CMakeFiles\appQR_code_conundrum.dir\583b26bd65784e365b6a17ad37ef9841\.rcc\qmlcache\appQR_code_conundrum_GameScreen_qml.cpp.i
+
+CMakeFiles/appQR_code_conundrum.dir/583b26bd65784e365b6a17ad37ef9841/.rcc/qmlcache/appQR_code_conundrum_GameScreen_qml.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/appQR_code_conundrum.dir/583b26bd65784e365b6a17ad37ef9841/.rcc/qmlcache/appQR_code_conundrum_GameScreen_qml.cpp.s"
+	C:\Qt\Tools\llvm-mingw1706_64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Admin\Documents\QT_Creator_Project\QR_code_conundrum\build\Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug\.rcc\qmlcache\appQR_code_conundrum_GameScreen_qml.cpp -o CMakeFiles\appQR_code_conundrum.dir\583b26bd65784e365b6a17ad37ef9841\.rcc\qmlcache\appQR_code_conundrum_GameScreen_qml.cpp.s
+
+CMakeFiles/appQR_code_conundrum.dir/583b26bd65784e365b6a17ad37ef9841/.rcc/qmlcache/appQR_code_conundrum_StatsScreen_qml.cpp.obj: CMakeFiles/appQR_code_conundrum.dir/flags.make
+CMakeFiles/appQR_code_conundrum.dir/583b26bd65784e365b6a17ad37ef9841/.rcc/qmlcache/appQR_code_conundrum_StatsScreen_qml.cpp.obj: CMakeFiles/appQR_code_conundrum.dir/includes_CXX.rsp
+CMakeFiles/appQR_code_conundrum.dir/583b26bd65784e365b6a17ad37ef9841/.rcc/qmlcache/appQR_code_conundrum_StatsScreen_qml.cpp.obj: .rcc/qmlcache/appQR_code_conundrum_StatsScreen_qml.cpp
+CMakeFiles/appQR_code_conundrum.dir/583b26bd65784e365b6a17ad37ef9841/.rcc/qmlcache/appQR_code_conundrum_StatsScreen_qml.cpp.obj: CMakeFiles/appQR_code_conundrum.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Admin\Documents\QT_Creator_Project\QR_code_conundrum\build\Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/appQR_code_conundrum.dir/583b26bd65784e365b6a17ad37ef9841/.rcc/qmlcache/appQR_code_conundrum_StatsScreen_qml.cpp.obj"
+	C:\Qt\Tools\llvm-mingw1706_64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appQR_code_conundrum.dir/583b26bd65784e365b6a17ad37ef9841/.rcc/qmlcache/appQR_code_conundrum_StatsScreen_qml.cpp.obj -MF CMakeFiles\appQR_code_conundrum.dir\583b26bd65784e365b6a17ad37ef9841\.rcc\qmlcache\appQR_code_conundrum_StatsScreen_qml.cpp.obj.d -o CMakeFiles\appQR_code_conundrum.dir\583b26bd65784e365b6a17ad37ef9841\.rcc\qmlcache\appQR_code_conundrum_StatsScreen_qml.cpp.obj -c C:\Users\Admin\Documents\QT_Creator_Project\QR_code_conundrum\build\Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug\.rcc\qmlcache\appQR_code_conundrum_StatsScreen_qml.cpp
+
+CMakeFiles/appQR_code_conundrum.dir/583b26bd65784e365b6a17ad37ef9841/.rcc/qmlcache/appQR_code_conundrum_StatsScreen_qml.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/appQR_code_conundrum.dir/583b26bd65784e365b6a17ad37ef9841/.rcc/qmlcache/appQR_code_conundrum_StatsScreen_qml.cpp.i"
+	C:\Qt\Tools\llvm-mingw1706_64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Admin\Documents\QT_Creator_Project\QR_code_conundrum\build\Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug\.rcc\qmlcache\appQR_code_conundrum_StatsScreen_qml.cpp > CMakeFiles\appQR_code_conundrum.dir\583b26bd65784e365b6a17ad37ef9841\.rcc\qmlcache\appQR_code_conundrum_StatsScreen_qml.cpp.i
+
+CMakeFiles/appQR_code_conundrum.dir/583b26bd65784e365b6a17ad37ef9841/.rcc/qmlcache/appQR_code_conundrum_StatsScreen_qml.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/appQR_code_conundrum.dir/583b26bd65784e365b6a17ad37ef9841/.rcc/qmlcache/appQR_code_conundrum_StatsScreen_qml.cpp.s"
+	C:\Qt\Tools\llvm-mingw1706_64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Admin\Documents\QT_Creator_Project\QR_code_conundrum\build\Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug\.rcc\qmlcache\appQR_code_conundrum_StatsScreen_qml.cpp -o CMakeFiles\appQR_code_conundrum.dir\583b26bd65784e365b6a17ad37ef9841\.rcc\qmlcache\appQR_code_conundrum_StatsScreen_qml.cpp.s
+
+CMakeFiles/appQR_code_conundrum.dir/583b26bd65784e365b6a17ad37ef9841/.rcc/qmlcache/appQR_code_conundrum_TutorialScreen_qml.cpp.obj: CMakeFiles/appQR_code_conundrum.dir/flags.make
+CMakeFiles/appQR_code_conundrum.dir/583b26bd65784e365b6a17ad37ef9841/.rcc/qmlcache/appQR_code_conundrum_TutorialScreen_qml.cpp.obj: CMakeFiles/appQR_code_conundrum.dir/includes_CXX.rsp
+CMakeFiles/appQR_code_conundrum.dir/583b26bd65784e365b6a17ad37ef9841/.rcc/qmlcache/appQR_code_conundrum_TutorialScreen_qml.cpp.obj: .rcc/qmlcache/appQR_code_conundrum_TutorialScreen_qml.cpp
+CMakeFiles/appQR_code_conundrum.dir/583b26bd65784e365b6a17ad37ef9841/.rcc/qmlcache/appQR_code_conundrum_TutorialScreen_qml.cpp.obj: CMakeFiles/appQR_code_conundrum.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Admin\Documents\QT_Creator_Project\QR_code_conundrum\build\Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/appQR_code_conundrum.dir/583b26bd65784e365b6a17ad37ef9841/.rcc/qmlcache/appQR_code_conundrum_TutorialScreen_qml.cpp.obj"
+	C:\Qt\Tools\llvm-mingw1706_64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appQR_code_conundrum.dir/583b26bd65784e365b6a17ad37ef9841/.rcc/qmlcache/appQR_code_conundrum_TutorialScreen_qml.cpp.obj -MF CMakeFiles\appQR_code_conundrum.dir\583b26bd65784e365b6a17ad37ef9841\.rcc\qmlcache\appQR_code_conundrum_TutorialScreen_qml.cpp.obj.d -o CMakeFiles\appQR_code_conundrum.dir\583b26bd65784e365b6a17ad37ef9841\.rcc\qmlcache\appQR_code_conundrum_TutorialScreen_qml.cpp.obj -c C:\Users\Admin\Documents\QT_Creator_Project\QR_code_conundrum\build\Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug\.rcc\qmlcache\appQR_code_conundrum_TutorialScreen_qml.cpp
+
+CMakeFiles/appQR_code_conundrum.dir/583b26bd65784e365b6a17ad37ef9841/.rcc/qmlcache/appQR_code_conundrum_TutorialScreen_qml.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/appQR_code_conundrum.dir/583b26bd65784e365b6a17ad37ef9841/.rcc/qmlcache/appQR_code_conundrum_TutorialScreen_qml.cpp.i"
+	C:\Qt\Tools\llvm-mingw1706_64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Admin\Documents\QT_Creator_Project\QR_code_conundrum\build\Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug\.rcc\qmlcache\appQR_code_conundrum_TutorialScreen_qml.cpp > CMakeFiles\appQR_code_conundrum.dir\583b26bd65784e365b6a17ad37ef9841\.rcc\qmlcache\appQR_code_conundrum_TutorialScreen_qml.cpp.i
+
+CMakeFiles/appQR_code_conundrum.dir/583b26bd65784e365b6a17ad37ef9841/.rcc/qmlcache/appQR_code_conundrum_TutorialScreen_qml.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/appQR_code_conundrum.dir/583b26bd65784e365b6a17ad37ef9841/.rcc/qmlcache/appQR_code_conundrum_TutorialScreen_qml.cpp.s"
+	C:\Qt\Tools\llvm-mingw1706_64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Admin\Documents\QT_Creator_Project\QR_code_conundrum\build\Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug\.rcc\qmlcache\appQR_code_conundrum_TutorialScreen_qml.cpp -o CMakeFiles\appQR_code_conundrum.dir\583b26bd65784e365b6a17ad37ef9841\.rcc\qmlcache\appQR_code_conundrum_TutorialScreen_qml.cpp.s
+
 CMakeFiles/appQR_code_conundrum.dir/build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/.qt/rcc/qrc_appQR_code_conundrum_raw_qml_0.cpp.obj: CMakeFiles/appQR_code_conundrum.dir/flags.make
 CMakeFiles/appQR_code_conundrum.dir/build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/.qt/rcc/qrc_appQR_code_conundrum_raw_qml_0.cpp.obj: CMakeFiles/appQR_code_conundrum.dir/includes_CXX.rsp
 CMakeFiles/appQR_code_conundrum.dir/build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/.qt/rcc/qrc_appQR_code_conundrum_raw_qml_0.cpp.obj: .qt/rcc/qrc_appQR_code_conundrum_raw_qml_0.cpp
 CMakeFiles/appQR_code_conundrum.dir/build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/.qt/rcc/qrc_appQR_code_conundrum_raw_qml_0.cpp.obj: CMakeFiles/appQR_code_conundrum.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Admin\Documents\QT_Creator_Project\QR_code_conundrum\build\Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/appQR_code_conundrum.dir/build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/.qt/rcc/qrc_appQR_code_conundrum_raw_qml_0.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Admin\Documents\QT_Creator_Project\QR_code_conundrum\build\Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/appQR_code_conundrum.dir/build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/.qt/rcc/qrc_appQR_code_conundrum_raw_qml_0.cpp.obj"
 	C:\Qt\Tools\llvm-mingw1706_64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appQR_code_conundrum.dir/build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/.qt/rcc/qrc_appQR_code_conundrum_raw_qml_0.cpp.obj -MF CMakeFiles\appQR_code_conundrum.dir\build\Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug\.qt\rcc\qrc_appQR_code_conundrum_raw_qml_0.cpp.obj.d -o CMakeFiles\appQR_code_conundrum.dir\build\Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug\.qt\rcc\qrc_appQR_code_conundrum_raw_qml_0.cpp.obj -c C:\Users\Admin\Documents\QT_Creator_Project\QR_code_conundrum\build\Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug\.qt\rcc\qrc_appQR_code_conundrum_raw_qml_0.cpp
 
 CMakeFiles/appQR_code_conundrum.dir/build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/.qt/rcc/qrc_appQR_code_conundrum_raw_qml_0.cpp.i: cmake_force
@@ -285,7 +409,7 @@ CMakeFiles/appQR_code_conundrum.dir/build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-De
 CMakeFiles/appQR_code_conundrum.dir/build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/.qt/rcc/qrc_appQR_code_conundrum_raw_res_0.cpp.obj: CMakeFiles/appQR_code_conundrum.dir/includes_CXX.rsp
 CMakeFiles/appQR_code_conundrum.dir/build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/.qt/rcc/qrc_appQR_code_conundrum_raw_res_0.cpp.obj: .qt/rcc/qrc_appQR_code_conundrum_raw_res_0.cpp
 CMakeFiles/appQR_code_conundrum.dir/build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/.qt/rcc/qrc_appQR_code_conundrum_raw_res_0.cpp.obj: CMakeFiles/appQR_code_conundrum.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Admin\Documents\QT_Creator_Project\QR_code_conundrum\build\Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/appQR_code_conundrum.dir/build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/.qt/rcc/qrc_appQR_code_conundrum_raw_res_0.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Admin\Documents\QT_Creator_Project\QR_code_conundrum\build\Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/appQR_code_conundrum.dir/build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/.qt/rcc/qrc_appQR_code_conundrum_raw_res_0.cpp.obj"
 	C:\Qt\Tools\llvm-mingw1706_64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appQR_code_conundrum.dir/build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/.qt/rcc/qrc_appQR_code_conundrum_raw_res_0.cpp.obj -MF CMakeFiles\appQR_code_conundrum.dir\build\Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug\.qt\rcc\qrc_appQR_code_conundrum_raw_res_0.cpp.obj.d -o CMakeFiles\appQR_code_conundrum.dir\build\Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug\.qt\rcc\qrc_appQR_code_conundrum_raw_res_0.cpp.obj -c C:\Users\Admin\Documents\QT_Creator_Project\QR_code_conundrum\build\Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug\.qt\rcc\qrc_appQR_code_conundrum_raw_res_0.cpp
 
 CMakeFiles/appQR_code_conundrum.dir/build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/.qt/rcc/qrc_appQR_code_conundrum_raw_res_0.cpp.i: cmake_force
@@ -306,6 +430,10 @@ appQR_code_conundrum_OBJECTS = \
 "CMakeFiles/appQR_code_conundrum.dir/gridmodel.cpp.obj" \
 "CMakeFiles/appQR_code_conundrum.dir/583b26bd65784e365b6a17ad37ef9841/.rcc/qmlcache/appQR_code_conundrum_qmlcache_loader.cpp.obj" \
 "CMakeFiles/appQR_code_conundrum.dir/build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/.rcc/qmlcache/appQR_code_conundrum_main_qml.cpp.obj" \
+"CMakeFiles/appQR_code_conundrum.dir/build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/.rcc/qmlcache/appQR_code_conundrum_MainMenu_qml.cpp.obj" \
+"CMakeFiles/appQR_code_conundrum.dir/583b26bd65784e365b6a17ad37ef9841/.rcc/qmlcache/appQR_code_conundrum_GameScreen_qml.cpp.obj" \
+"CMakeFiles/appQR_code_conundrum.dir/583b26bd65784e365b6a17ad37ef9841/.rcc/qmlcache/appQR_code_conundrum_StatsScreen_qml.cpp.obj" \
+"CMakeFiles/appQR_code_conundrum.dir/583b26bd65784e365b6a17ad37ef9841/.rcc/qmlcache/appQR_code_conundrum_TutorialScreen_qml.cpp.obj" \
 "CMakeFiles/appQR_code_conundrum.dir/build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/.qt/rcc/qrc_appQR_code_conundrum_raw_qml_0.cpp.obj" \
 "CMakeFiles/appQR_code_conundrum.dir/build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/.qt/rcc/qrc_appQR_code_conundrum_raw_res_0.cpp.obj"
 
@@ -320,6 +448,10 @@ appQR_code_conundrum.exe: CMakeFiles/appQR_code_conundrum.dir/gamecontroller.cpp
 appQR_code_conundrum.exe: CMakeFiles/appQR_code_conundrum.dir/gridmodel.cpp.obj
 appQR_code_conundrum.exe: CMakeFiles/appQR_code_conundrum.dir/583b26bd65784e365b6a17ad37ef9841/.rcc/qmlcache/appQR_code_conundrum_qmlcache_loader.cpp.obj
 appQR_code_conundrum.exe: CMakeFiles/appQR_code_conundrum.dir/build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/.rcc/qmlcache/appQR_code_conundrum_main_qml.cpp.obj
+appQR_code_conundrum.exe: CMakeFiles/appQR_code_conundrum.dir/build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/.rcc/qmlcache/appQR_code_conundrum_MainMenu_qml.cpp.obj
+appQR_code_conundrum.exe: CMakeFiles/appQR_code_conundrum.dir/583b26bd65784e365b6a17ad37ef9841/.rcc/qmlcache/appQR_code_conundrum_GameScreen_qml.cpp.obj
+appQR_code_conundrum.exe: CMakeFiles/appQR_code_conundrum.dir/583b26bd65784e365b6a17ad37ef9841/.rcc/qmlcache/appQR_code_conundrum_StatsScreen_qml.cpp.obj
+appQR_code_conundrum.exe: CMakeFiles/appQR_code_conundrum.dir/583b26bd65784e365b6a17ad37ef9841/.rcc/qmlcache/appQR_code_conundrum_TutorialScreen_qml.cpp.obj
 appQR_code_conundrum.exe: CMakeFiles/appQR_code_conundrum.dir/build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/.qt/rcc/qrc_appQR_code_conundrum_raw_qml_0.cpp.obj
 appQR_code_conundrum.exe: CMakeFiles/appQR_code_conundrum.dir/build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/.qt/rcc/qrc_appQR_code_conundrum_raw_res_0.cpp.obj
 appQR_code_conundrum.exe: CMakeFiles/appQR_code_conundrum.dir/build.make
@@ -333,7 +465,7 @@ appQR_code_conundrum.exe: C:/Qt/6.11.0/llvm-mingw_64/lib/libQt6EntryPoint.a
 appQR_code_conundrum.exe: CMakeFiles/appQR_code_conundrum.dir/linkLibs.rsp
 appQR_code_conundrum.exe: CMakeFiles/appQR_code_conundrum.dir/objects1.rsp
 appQR_code_conundrum.exe: CMakeFiles/appQR_code_conundrum.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\Admin\Documents\QT_Creator_Project\QR_code_conundrum\build\Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Linking CXX executable appQR_code_conundrum.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\Admin\Documents\QT_Creator_Project\QR_code_conundrum\build\Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Linking CXX executable appQR_code_conundrum.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\appQR_code_conundrum.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -347,6 +479,14 @@ CMakeFiles/appQR_code_conundrum.dir/clean:
 CMakeFiles/appQR_code_conundrum.dir/depend: .qt/rcc/qrc_appQR_code_conundrum_raw_qml_0.cpp
 CMakeFiles/appQR_code_conundrum.dir/depend: .qt/rcc/qrc_appQR_code_conundrum_raw_res_0.cpp
 CMakeFiles/appQR_code_conundrum.dir/depend: .qt/rcc/qrc_qmake_QR_code_conundrum.cpp
+CMakeFiles/appQR_code_conundrum.dir/depend: .rcc/qmlcache/appQR_code_conundrum_GameScreen_qml.cpp
+CMakeFiles/appQR_code_conundrum.dir/depend: .rcc/qmlcache/appQR_code_conundrum_GameScreen_qml.cpp.aotstats
+CMakeFiles/appQR_code_conundrum.dir/depend: .rcc/qmlcache/appQR_code_conundrum_MainMenu_qml.cpp
+CMakeFiles/appQR_code_conundrum.dir/depend: .rcc/qmlcache/appQR_code_conundrum_MainMenu_qml.cpp.aotstats
+CMakeFiles/appQR_code_conundrum.dir/depend: .rcc/qmlcache/appQR_code_conundrum_StatsScreen_qml.cpp
+CMakeFiles/appQR_code_conundrum.dir/depend: .rcc/qmlcache/appQR_code_conundrum_StatsScreen_qml.cpp.aotstats
+CMakeFiles/appQR_code_conundrum.dir/depend: .rcc/qmlcache/appQR_code_conundrum_TutorialScreen_qml.cpp
+CMakeFiles/appQR_code_conundrum.dir/depend: .rcc/qmlcache/appQR_code_conundrum_TutorialScreen_qml.cpp.aotstats
 CMakeFiles/appQR_code_conundrum.dir/depend: .rcc/qmlcache/appQR_code_conundrum_main_qml.cpp
 CMakeFiles/appQR_code_conundrum.dir/depend: .rcc/qmlcache/appQR_code_conundrum_main_qml.cpp.aotstats
 CMakeFiles/appQR_code_conundrum.dir/depend: .rcc/qmlcache/appQR_code_conundrum_qmlcache_loader.cpp

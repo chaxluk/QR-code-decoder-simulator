@@ -14,5 +14,9 @@ C:/Users/Admin/Documents/QT_Creator_Project/QR_code_conundrum/build/Desktop_Qt_6
 --resource
 C:/Users/Admin/Documents/QT_Creator_Project/QR_code_conundrum/build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/.qt/rcc/appQR_code_conundrum_raw_res_0.qrc
 C:/Users/Admin/Documents/QT_Creator_Project/QR_code_conundrum/main.qml
+C:/Users/Admin/Documents/QT_Creator_Project/QR_code_conundrum/MainMenu.qml
+C:/Users/Admin/Documents/QT_Creator_Project/QR_code_conundrum/GameScreen.qml
+C:/Users/Admin/Documents/QT_Creator_Project/QR_code_conundrum/StatsScreen.qml
+C:/Users/Admin/Documents/QT_Creator_Project/QR_code_conundrum/TutorialScreen.qml
 --json
 C:/Users/Admin/Documents/QT_Creator_Project/QR_code_conundrum/build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/appQR_code_conundrum_qmllint.json

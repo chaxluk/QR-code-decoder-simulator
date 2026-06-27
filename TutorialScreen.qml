@@ -4,7 +4,7 @@ import QtQuick.Controls
 Item {
     id: tutorialPage
     signal backToMenu()
-
+    // Верхня панель
     Rectangle {
         id: topBar
         width: parent.width; height: 60

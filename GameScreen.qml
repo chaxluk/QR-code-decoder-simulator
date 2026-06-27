@@ -40,7 +40,7 @@ Item {
             anchors.verticalCenter: parent.verticalCenter
             onClicked: backToMenu()
         }
-
+        // Таймер й очки
         Row {
             anchors.centerIn: parent
             spacing: 50
@@ -148,7 +148,7 @@ Item {
                     "Без маски", "Квіткові шпалери 000", "Клітинчастий прапор 001",
                     "Ящірки М.С. Ешера 010", "Шлях сокирою 011", "Тюремний одяг 100", "Партії в шахи 101", "Веселка 110", "За ґратами 111"
                 ]
-
+                // Оновлення QR-code при зміні
                 onActivated: gameLogic.processWord("", currentIndex - 1)
             }
 
@@ -157,17 +157,18 @@ Item {
                 placeholderText: "Яке слово зашифровано?"
                 width: 350; height: 40
                 horizontalAlignment: TextInput.AlignHCenter
-                enabled: isGameActive
+                enabled: isGameActive // Поле активне лише під час гри
             }
 
             Button {
                 text: "ПЕРЕВІРИТИ ВІДПОВІДЬ"
                 width: 350; height: 40
-                enabled: answerInput.text.length > 0 && isGameActive
+                enabled: answerInput.text.length > 0 && isGameActive // Активан тільки якщо є текст
                 onClicked: {
+                    // Правильна відповідь
                     if (gameLogic.checkAnswer(answerInput.text)) {
                         gameTimer.stop()
-                        isGameActive = false
+                        isGameActive = false // Блокує гру до генерування нового qr-code
                         switch(difficultySelector.currentIndex) {
                             case 0: // Легко || 5000 балів мінус 1.6 балів за кожну витрачену секунду
                                 currentScore = Math.max(100, 500 - (timeElapsed * 1.6))
@@ -259,13 +260,13 @@ Item {
             }
         }
     }
-
+    // Вікно результату
     Dialog {
         id: resultDialog
         x: (parent.width - width) / 2
         y: (parent.height - height) / 2
         width: 300
-        modal: true
+        modal: true // Блокує взаємодію з елементами основного вікна
         title: "Результат"
         standardButtons: Dialog.Ok
 

@@ -68,9 +68,69 @@ include CMakeFiles/module_appQR_code_conundrum_aotstats_target.dir/progress.make
 CMakeFiles/module_appQR_code_conundrum_aotstats_target: .rcc/qmlcache/module_appQR_code_conundrum.aotstats
 
 .rcc/qmlcache/module_appQR_code_conundrum.aotstats: .rcc/qmlcache/appQR_code_conundrum_main_qml.cpp.aotstats
+.rcc/qmlcache/module_appQR_code_conundrum.aotstats: .rcc/qmlcache/appQR_code_conundrum_MainMenu_qml.cpp.aotstats
+.rcc/qmlcache/module_appQR_code_conundrum.aotstats: .rcc/qmlcache/appQR_code_conundrum_GameScreen_qml.cpp.aotstats
+.rcc/qmlcache/module_appQR_code_conundrum.aotstats: .rcc/qmlcache/appQR_code_conundrum_StatsScreen_qml.cpp.aotstats
+.rcc/qmlcache/module_appQR_code_conundrum.aotstats: .rcc/qmlcache/appQR_code_conundrum_TutorialScreen_qml.cpp.aotstats
 .rcc/qmlcache/module_appQR_code_conundrum.aotstats: .rcc/qmlcache/module_appQR_code_conundrum.aotstatslist
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\Admin\Documents\QT_Creator_Project\QR_code_conundrum\build\Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating .rcc/qmlcache/module_appQR_code_conundrum.aotstats"
 	call .qt\bin\qt_setup_tool_path.bat C:/Qt/6.11.0/llvm-mingw_64/bin/qmlaotstats.exe aggregate C:/Users/Admin/Documents/QT_Creator_Project/QR_code_conundrum/build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/.rcc/qmlcache/module_appQR_code_conundrum.aotstatslist C:/Users/Admin/Documents/QT_Creator_Project/QR_code_conundrum/build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/.rcc/qmlcache/module_appQR_code_conundrum.aotstats
+
+.rcc/qmlcache/appQR_code_conundrum_GameScreen_qml.cpp: C:/Qt/6.11.0/llvm-mingw_64/bin/qmlcachegen.exe
+.rcc/qmlcache/appQR_code_conundrum_GameScreen_qml.cpp: C:/Users/Admin/Documents/QT_Creator_Project/QR_code_conundrum/GameScreen.qml
+.rcc/qmlcache/appQR_code_conundrum_GameScreen_qml.cpp: .qt/rcc/qmake_QR_code_conundrum.qrc
+.rcc/qmlcache/appQR_code_conundrum_GameScreen_qml.cpp: .qt/rcc/appQR_code_conundrum_raw_qml_0.qrc
+.rcc/qmlcache/appQR_code_conundrum_GameScreen_qml.cpp: .qt/rcc/appQR_code_conundrum_raw_res_0.qrc
+.rcc/qmlcache/appQR_code_conundrum_GameScreen_qml.cpp: QR_code_conundrum/appQR_code_conundrum.qmltypes
+.rcc/qmlcache/appQR_code_conundrum_GameScreen_qml.cpp: QR_code_conundrum/qmldir
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\Admin\Documents\QT_Creator_Project\QR_code_conundrum\build\Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating .rcc/qmlcache/appQR_code_conundrum_GameScreen_qml.cpp, .rcc/qmlcache/appQR_code_conundrum_GameScreen_qml.cpp.aotstats"
+	C:\Qt\Tools\CMake_64\bin\cmake.exe -E make_directory C:/Users/Admin/Documents/QT_Creator_Project/QR_code_conundrum/build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/.rcc/qmlcache
+	call .qt\bin\qt_setup_tool_path.bat C:/Qt/6.11.0/llvm-mingw_64/bin/qmlcachegen.exe --bare --resource-path /QR_code_conundrum/GameScreen.qml -I C:/Users/Admin/Documents/QT_Creator_Project/QR_code_conundrum/build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug -I C:/Qt/6.11.0/llvm-mingw_64/qml -i C:/Users/Admin/Documents/QT_Creator_Project/QR_code_conundrum/build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/QR_code_conundrum/qmldir --resource C:/Users/Admin/Documents/QT_Creator_Project/QR_code_conundrum/build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/.qt/rcc/qmake_QR_code_conundrum.qrc --resource C:/Users/Admin/Documents/QT_Creator_Project/QR_code_conundrum/build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/.qt/rcc/appQR_code_conundrum_raw_qml_0.qrc --resource C:/Users/Admin/Documents/QT_Creator_Project/QR_code_conundrum/build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/.qt/rcc/appQR_code_conundrum_raw_res_0.qrc --dump-aot-stats --module-id=QR_code_conundrum(appQR_code_conundrum) -o C:/Users/Admin/Documents/QT_Creator_Project/QR_code_conundrum/build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/.rcc/qmlcache/appQR_code_conundrum_GameScreen_qml.cpp C:/Users/Admin/Documents/QT_Creator_Project/QR_code_conundrum/GameScreen.qml
+
+.rcc/qmlcache/appQR_code_conundrum_GameScreen_qml.cpp.aotstats: .rcc/qmlcache/appQR_code_conundrum_GameScreen_qml.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate .rcc\qmlcache\appQR_code_conundrum_GameScreen_qml.cpp.aotstats
+
+.rcc/qmlcache/appQR_code_conundrum_MainMenu_qml.cpp: C:/Qt/6.11.0/llvm-mingw_64/bin/qmlcachegen.exe
+.rcc/qmlcache/appQR_code_conundrum_MainMenu_qml.cpp: C:/Users/Admin/Documents/QT_Creator_Project/QR_code_conundrum/MainMenu.qml
+.rcc/qmlcache/appQR_code_conundrum_MainMenu_qml.cpp: .qt/rcc/qmake_QR_code_conundrum.qrc
+.rcc/qmlcache/appQR_code_conundrum_MainMenu_qml.cpp: .qt/rcc/appQR_code_conundrum_raw_qml_0.qrc
+.rcc/qmlcache/appQR_code_conundrum_MainMenu_qml.cpp: .qt/rcc/appQR_code_conundrum_raw_res_0.qrc
+.rcc/qmlcache/appQR_code_conundrum_MainMenu_qml.cpp: QR_code_conundrum/appQR_code_conundrum.qmltypes
+.rcc/qmlcache/appQR_code_conundrum_MainMenu_qml.cpp: QR_code_conundrum/qmldir
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\Admin\Documents\QT_Creator_Project\QR_code_conundrum\build\Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating .rcc/qmlcache/appQR_code_conundrum_MainMenu_qml.cpp, .rcc/qmlcache/appQR_code_conundrum_MainMenu_qml.cpp.aotstats"
+	C:\Qt\Tools\CMake_64\bin\cmake.exe -E make_directory C:/Users/Admin/Documents/QT_Creator_Project/QR_code_conundrum/build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/.rcc/qmlcache
+	call .qt\bin\qt_setup_tool_path.bat C:/Qt/6.11.0/llvm-mingw_64/bin/qmlcachegen.exe --bare --resource-path /QR_code_conundrum/MainMenu.qml -I C:/Users/Admin/Documents/QT_Creator_Project/QR_code_conundrum/build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug -I C:/Qt/6.11.0/llvm-mingw_64/qml -i C:/Users/Admin/Documents/QT_Creator_Project/QR_code_conundrum/build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/QR_code_conundrum/qmldir --resource C:/Users/Admin/Documents/QT_Creator_Project/QR_code_conundrum/build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/.qt/rcc/qmake_QR_code_conundrum.qrc --resource C:/Users/Admin/Documents/QT_Creator_Project/QR_code_conundrum/build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/.qt/rcc/appQR_code_conundrum_raw_qml_0.qrc --resource C:/Users/Admin/Documents/QT_Creator_Project/QR_code_conundrum/build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/.qt/rcc/appQR_code_conundrum_raw_res_0.qrc --dump-aot-stats --module-id=QR_code_conundrum(appQR_code_conundrum) -o C:/Users/Admin/Documents/QT_Creator_Project/QR_code_conundrum/build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/.rcc/qmlcache/appQR_code_conundrum_MainMenu_qml.cpp C:/Users/Admin/Documents/QT_Creator_Project/QR_code_conundrum/MainMenu.qml
+
+.rcc/qmlcache/appQR_code_conundrum_MainMenu_qml.cpp.aotstats: .rcc/qmlcache/appQR_code_conundrum_MainMenu_qml.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate .rcc\qmlcache\appQR_code_conundrum_MainMenu_qml.cpp.aotstats
+
+.rcc/qmlcache/appQR_code_conundrum_StatsScreen_qml.cpp: C:/Qt/6.11.0/llvm-mingw_64/bin/qmlcachegen.exe
+.rcc/qmlcache/appQR_code_conundrum_StatsScreen_qml.cpp: C:/Users/Admin/Documents/QT_Creator_Project/QR_code_conundrum/StatsScreen.qml
+.rcc/qmlcache/appQR_code_conundrum_StatsScreen_qml.cpp: .qt/rcc/qmake_QR_code_conundrum.qrc
+.rcc/qmlcache/appQR_code_conundrum_StatsScreen_qml.cpp: .qt/rcc/appQR_code_conundrum_raw_qml_0.qrc
+.rcc/qmlcache/appQR_code_conundrum_StatsScreen_qml.cpp: .qt/rcc/appQR_code_conundrum_raw_res_0.qrc
+.rcc/qmlcache/appQR_code_conundrum_StatsScreen_qml.cpp: QR_code_conundrum/appQR_code_conundrum.qmltypes
+.rcc/qmlcache/appQR_code_conundrum_StatsScreen_qml.cpp: QR_code_conundrum/qmldir
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\Admin\Documents\QT_Creator_Project\QR_code_conundrum\build\Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating .rcc/qmlcache/appQR_code_conundrum_StatsScreen_qml.cpp, .rcc/qmlcache/appQR_code_conundrum_StatsScreen_qml.cpp.aotstats"
+	C:\Qt\Tools\CMake_64\bin\cmake.exe -E make_directory C:/Users/Admin/Documents/QT_Creator_Project/QR_code_conundrum/build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/.rcc/qmlcache
+	call .qt\bin\qt_setup_tool_path.bat C:/Qt/6.11.0/llvm-mingw_64/bin/qmlcachegen.exe --bare --resource-path /QR_code_conundrum/StatsScreen.qml -I C:/Users/Admin/Documents/QT_Creator_Project/QR_code_conundrum/build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug -I C:/Qt/6.11.0/llvm-mingw_64/qml -i C:/Users/Admin/Documents/QT_Creator_Project/QR_code_conundrum/build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/QR_code_conundrum/qmldir --resource C:/Users/Admin/Documents/QT_Creator_Project/QR_code_conundrum/build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/.qt/rcc/qmake_QR_code_conundrum.qrc --resource C:/Users/Admin/Documents/QT_Creator_Project/QR_code_conundrum/build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/.qt/rcc/appQR_code_conundrum_raw_qml_0.qrc --resource C:/Users/Admin/Documents/QT_Creator_Project/QR_code_conundrum/build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/.qt/rcc/appQR_code_conundrum_raw_res_0.qrc --dump-aot-stats --module-id=QR_code_conundrum(appQR_code_conundrum) -o C:/Users/Admin/Documents/QT_Creator_Project/QR_code_conundrum/build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/.rcc/qmlcache/appQR_code_conundrum_StatsScreen_qml.cpp C:/Users/Admin/Documents/QT_Creator_Project/QR_code_conundrum/StatsScreen.qml
+
+.rcc/qmlcache/appQR_code_conundrum_StatsScreen_qml.cpp.aotstats: .rcc/qmlcache/appQR_code_conundrum_StatsScreen_qml.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate .rcc\qmlcache\appQR_code_conundrum_StatsScreen_qml.cpp.aotstats
+
+.rcc/qmlcache/appQR_code_conundrum_TutorialScreen_qml.cpp: C:/Qt/6.11.0/llvm-mingw_64/bin/qmlcachegen.exe
+.rcc/qmlcache/appQR_code_conundrum_TutorialScreen_qml.cpp: C:/Users/Admin/Documents/QT_Creator_Project/QR_code_conundrum/TutorialScreen.qml
+.rcc/qmlcache/appQR_code_conundrum_TutorialScreen_qml.cpp: .qt/rcc/qmake_QR_code_conundrum.qrc
+.rcc/qmlcache/appQR_code_conundrum_TutorialScreen_qml.cpp: .qt/rcc/appQR_code_conundrum_raw_qml_0.qrc
+.rcc/qmlcache/appQR_code_conundrum_TutorialScreen_qml.cpp: .qt/rcc/appQR_code_conundrum_raw_res_0.qrc
+.rcc/qmlcache/appQR_code_conundrum_TutorialScreen_qml.cpp: QR_code_conundrum/appQR_code_conundrum.qmltypes
+.rcc/qmlcache/appQR_code_conundrum_TutorialScreen_qml.cpp: QR_code_conundrum/qmldir
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\Admin\Documents\QT_Creator_Project\QR_code_conundrum\build\Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating .rcc/qmlcache/appQR_code_conundrum_TutorialScreen_qml.cpp, .rcc/qmlcache/appQR_code_conundrum_TutorialScreen_qml.cpp.aotstats"
+	C:\Qt\Tools\CMake_64\bin\cmake.exe -E make_directory C:/Users/Admin/Documents/QT_Creator_Project/QR_code_conundrum/build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/.rcc/qmlcache
+	call .qt\bin\qt_setup_tool_path.bat C:/Qt/6.11.0/llvm-mingw_64/bin/qmlcachegen.exe --bare --resource-path /QR_code_conundrum/TutorialScreen.qml -I C:/Users/Admin/Documents/QT_Creator_Project/QR_code_conundrum/build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug -I C:/Qt/6.11.0/llvm-mingw_64/qml -i C:/Users/Admin/Documents/QT_Creator_Project/QR_code_conundrum/build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/QR_code_conundrum/qmldir --resource C:/Users/Admin/Documents/QT_Creator_Project/QR_code_conundrum/build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/.qt/rcc/qmake_QR_code_conundrum.qrc --resource C:/Users/Admin/Documents/QT_Creator_Project/QR_code_conundrum/build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/.qt/rcc/appQR_code_conundrum_raw_qml_0.qrc --resource C:/Users/Admin/Documents/QT_Creator_Project/QR_code_conundrum/build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/.qt/rcc/appQR_code_conundrum_raw_res_0.qrc --dump-aot-stats --module-id=QR_code_conundrum(appQR_code_conundrum) -o C:/Users/Admin/Documents/QT_Creator_Project/QR_code_conundrum/build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/.rcc/qmlcache/appQR_code_conundrum_TutorialScreen_qml.cpp C:/Users/Admin/Documents/QT_Creator_Project/QR_code_conundrum/TutorialScreen.qml
+
+.rcc/qmlcache/appQR_code_conundrum_TutorialScreen_qml.cpp.aotstats: .rcc/qmlcache/appQR_code_conundrum_TutorialScreen_qml.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate .rcc\qmlcache\appQR_code_conundrum_TutorialScreen_qml.cpp.aotstats
 
 .rcc/qmlcache/appQR_code_conundrum_main_qml.cpp: C:/Qt/6.11.0/llvm-mingw_64/bin/qmlcachegen.exe
 .rcc/qmlcache/appQR_code_conundrum_main_qml.cpp: C:/Users/Admin/Documents/QT_Creator_Project/QR_code_conundrum/main.qml
@@ -79,13 +139,21 @@ CMakeFiles/module_appQR_code_conundrum_aotstats_target: .rcc/qmlcache/module_app
 .rcc/qmlcache/appQR_code_conundrum_main_qml.cpp: .qt/rcc/appQR_code_conundrum_raw_res_0.qrc
 .rcc/qmlcache/appQR_code_conundrum_main_qml.cpp: QR_code_conundrum/appQR_code_conundrum.qmltypes
 .rcc/qmlcache/appQR_code_conundrum_main_qml.cpp: QR_code_conundrum/qmldir
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\Admin\Documents\QT_Creator_Project\QR_code_conundrum\build\Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating .rcc/qmlcache/appQR_code_conundrum_main_qml.cpp, .rcc/qmlcache/appQR_code_conundrum_main_qml.cpp.aotstats"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\Admin\Documents\QT_Creator_Project\QR_code_conundrum\build\Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating .rcc/qmlcache/appQR_code_conundrum_main_qml.cpp, .rcc/qmlcache/appQR_code_conundrum_main_qml.cpp.aotstats"
 	C:\Qt\Tools\CMake_64\bin\cmake.exe -E make_directory C:/Users/Admin/Documents/QT_Creator_Project/QR_code_conundrum/build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/.rcc/qmlcache
 	call .qt\bin\qt_setup_tool_path.bat C:/Qt/6.11.0/llvm-mingw_64/bin/qmlcachegen.exe --bare --resource-path /QR_code_conundrum/main.qml -I C:/Users/Admin/Documents/QT_Creator_Project/QR_code_conundrum/build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug -I C:/Qt/6.11.0/llvm-mingw_64/qml -i C:/Users/Admin/Documents/QT_Creator_Project/QR_code_conundrum/build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/QR_code_conundrum/qmldir --resource C:/Users/Admin/Documents/QT_Creator_Project/QR_code_conundrum/build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/.qt/rcc/qmake_QR_code_conundrum.qrc --resource C:/Users/Admin/Documents/QT_Creator_Project/QR_code_conundrum/build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/.qt/rcc/appQR_code_conundrum_raw_qml_0.qrc --resource C:/Users/Admin/Documents/QT_Creator_Project/QR_code_conundrum/build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/.qt/rcc/appQR_code_conundrum_raw_res_0.qrc --dump-aot-stats --module-id=QR_code_conundrum(appQR_code_conundrum) -o C:/Users/Admin/Documents/QT_Creator_Project/QR_code_conundrum/build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/.rcc/qmlcache/appQR_code_conundrum_main_qml.cpp C:/Users/Admin/Documents/QT_Creator_Project/QR_code_conundrum/main.qml
 
 .rcc/qmlcache/appQR_code_conundrum_main_qml.cpp.aotstats: .rcc/qmlcache/appQR_code_conundrum_main_qml.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate .rcc\qmlcache\appQR_code_conundrum_main_qml.cpp.aotstats
 
+module_appQR_code_conundrum_aotstats_target: .rcc/qmlcache/appQR_code_conundrum_GameScreen_qml.cpp
+module_appQR_code_conundrum_aotstats_target: .rcc/qmlcache/appQR_code_conundrum_GameScreen_qml.cpp.aotstats
+module_appQR_code_conundrum_aotstats_target: .rcc/qmlcache/appQR_code_conundrum_MainMenu_qml.cpp
+module_appQR_code_conundrum_aotstats_target: .rcc/qmlcache/appQR_code_conundrum_MainMenu_qml.cpp.aotstats
+module_appQR_code_conundrum_aotstats_target: .rcc/qmlcache/appQR_code_conundrum_StatsScreen_qml.cpp
+module_appQR_code_conundrum_aotstats_target: .rcc/qmlcache/appQR_code_conundrum_StatsScreen_qml.cpp.aotstats
+module_appQR_code_conundrum_aotstats_target: .rcc/qmlcache/appQR_code_conundrum_TutorialScreen_qml.cpp
+module_appQR_code_conundrum_aotstats_target: .rcc/qmlcache/appQR_code_conundrum_TutorialScreen_qml.cpp.aotstats
 module_appQR_code_conundrum_aotstats_target: .rcc/qmlcache/appQR_code_conundrum_main_qml.cpp
 module_appQR_code_conundrum_aotstats_target: .rcc/qmlcache/appQR_code_conundrum_main_qml.cpp.aotstats
 module_appQR_code_conundrum_aotstats_target: .rcc/qmlcache/module_appQR_code_conundrum.aotstats

@@ -67,6 +67,10 @@ include CMakeFiles/appQR_code_conundrum_qmllint_json.dir/progress.make
 
 CMakeFiles/appQR_code_conundrum_qmllint_json: C:/Qt/6.11.0/llvm-mingw_64/bin/qmllint.exe
 CMakeFiles/appQR_code_conundrum_qmllint_json: C:/Users/Admin/Documents/QT_Creator_Project/QR_code_conundrum/main.qml
+CMakeFiles/appQR_code_conundrum_qmllint_json: C:/Users/Admin/Documents/QT_Creator_Project/QR_code_conundrum/MainMenu.qml
+CMakeFiles/appQR_code_conundrum_qmllint_json: C:/Users/Admin/Documents/QT_Creator_Project/QR_code_conundrum/GameScreen.qml
+CMakeFiles/appQR_code_conundrum_qmllint_json: C:/Users/Admin/Documents/QT_Creator_Project/QR_code_conundrum/StatsScreen.qml
+CMakeFiles/appQR_code_conundrum_qmllint_json: C:/Users/Admin/Documents/QT_Creator_Project/QR_code_conundrum/TutorialScreen.qml
 CMakeFiles/appQR_code_conundrum_qmllint_json: .rcc/qmllint/appQR_code_conundrum_json.rsp
 	cd /d C:\Users\Admin\Documents\QT_Creator_Project\QR_code_conundrum && call C:\Users\Admin\Documents\QT_Creator_Project\QR_code_conundrum\build\Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug\.qt\bin\qt_setup_tool_path.bat C:/Qt/6.11.0/llvm-mingw_64/bin/qmllint.exe @C:/Users/Admin/Documents/QT_Creator_Project/QR_code_conundrum/build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/.rcc/qmllint/appQR_code_conundrum_json.rsp
 
