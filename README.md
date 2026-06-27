@@ -51,7 +51,9 @@ cmake -B build && cmake --build build
 
 ## Screenshots
 
-![Game Screen](screenshots/game.png) 
+<p align="center">
+  <img src="screenshots/game.png" alt="Game Screen" width="600"/>
+</p>
 
 ---
 
