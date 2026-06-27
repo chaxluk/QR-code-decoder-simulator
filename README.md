@@ -1,3 +1,6 @@
+![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20Linux%20%7C%20macOS-blue)
+![Qt](https://img.shields.io/badge/Qt-6.11-green)
+![Language](https://img.shields.io/badge/language-C%2B%2B-orange)
 # QR Decoder Simulator
 
 A cross-platform educational trainer that teaches you how QR codes work — by making you decode them manually.
