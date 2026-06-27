@@ -51,7 +51,7 @@ cmake -B build && cmake --build build
 
 ## Screenshots
 
-> 
+![Game Screen](screenshots/game.png) 
 
 ---
 
