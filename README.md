@@ -59,9 +59,3 @@ cmake -B build && cmake --build build
 <p align="center">
   <img src="screenshots/game.png" alt="Game Screen" width="600"/>
 </p>
-
----
-
-## License
-
-[CC BY-NC 4.0](LICENSE) — free to use and learn from, commercial use is not permitted.
