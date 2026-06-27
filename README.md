@@ -1,6 +1,7 @@
 ![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20Linux%20%7C%20macOS-blue)
 ![Qt](https://img.shields.io/badge/Qt-6.11-green)
 ![Language](https://img.shields.io/badge/language-C%2B%2B-orange)
+![UI Language](https://img.shields.io/badge/UI%20language-Ukrainian-FFD700?logo=ukraine)
 [![Release](https://img.shields.io/github/v/release/chaxluk/QR-code-decoder-simulator?color=brightgreen&label=download&logo=github)](https://github.com/chaxluk/QR-code-decoder-simulator/releases/latest)
 # QR Decoder Simulator
 
